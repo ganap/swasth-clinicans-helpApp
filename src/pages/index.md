@@ -9,12 +9,31 @@ description: >-
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
-helpSections:
-  heading: Test
-  description: Test Description
-  sections:
+features:
+  heading: Getting Started
+  description: Getting start with popular features of swasth
+  feature:
     - image: /img/blog-index.jpg
-      slug: getting-start
-      title: Test Section
+      slug: setting-up-your-practices
+      title: 'Setting up your practices '
+    - image: /img/chemex.jpg
+      slug: live-classes
+      title: Live Classes
+    - image: /img/blog-index.jpg
+      slug: security-compliances
+      title: 'Security & Compliances '
+topics:
+  heading: Browse All Topics
+  description: Choose any of best topics
+  topic:
+    - image: /img/coffee-gear.png
+      slug: account-questions
+      title: Account Questions
+    - image: /img/coffee.png
+      slug: apps
+      title: Apps
+    - image: /img/coffee-gear.png
+      slug: practice-management
+      title: Practice Management
 ---
 
