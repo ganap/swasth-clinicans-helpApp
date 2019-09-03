@@ -22,10 +22,8 @@ features:
     - image: /img/blog-index.jpg
       slug: security-compliances
       title: 'Security & Compliances '
-topics:
-  heading: Browse All Topics
-  description: Choose any of best topics
-  topic:
+categories:
+  category:
     - image: /img/coffee-gear.png
       slug: account-questions
       title: Account Questions
@@ -35,5 +33,7 @@ topics:
     - image: /img/coffee-gear.png
       slug: practice-management
       title: Practice Management
+  heading: Browse All Topics
+  description: Popular categories of swasth
 ---
 
