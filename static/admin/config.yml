@@ -21,11 +21,36 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "features"
+    label: "Features"
+    folder: "src/pages/features"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "categories"
+    label: "Categories"
+    folder: "src/pages/categories"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "pages"
     label: "Pages"
     files:
       - file: "src/pages/index.md"
-        label: "New Landing Page"
+        label: "Landing Page"
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
@@ -34,7 +59,8 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Subheading, name: subheading, widget: string}
           - {label: Description, name: description, widget: string}
-          - {label: "Help Section", name: helpSections, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "Getting Start", name: "sections", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}, {label: Image, name: image, widget: image}]}]}
+          - {label: "Features", name: features, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "feature", name: "feature", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}, {label: Image, name: image, widget: image}]}]}
+          - {label: "Categories", name: categories, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: "category", name: "category", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}, {label: Image, name: image, widget: image}]}]}
       
       - file: "src/pages/about/index.md"
         label: "About"

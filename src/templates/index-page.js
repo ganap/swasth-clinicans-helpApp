@@ -4,16 +4,16 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+import Categories from '../components/Categories'
 
 export const IndexPageTemplate = ({
   image,
   title,
   heading,
   subheading,
-  mainpitch,
   description,
-  intro,
+  features,
+  categories
 }) => (
   <div>
     <div
@@ -47,7 +47,7 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          Dummy Title2
+          {title}
         </h1>
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -70,41 +70,26 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
+                { features ?
+                <section className="section">
+                  <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
+                    {features.heading}
+                  </h3>
+                <Features gridItems={features.feature} />
+                </section>  : ''}
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
                       See all products
                     </Link>
                   </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                </div> */}
+                {/* <section className="section">
+                  <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
+                    {categories.heading}
                   </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
-                  </div>
-                </div>
+                  <Categories gridItems={categories.category} />
+                </section> */}  
               </div>
             </div>
           </div>
@@ -119,11 +104,9 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  features: PropTypes.object,
+  categories: PropTypes.object
 }
 
 const IndexPage = ({ data }) => {
@@ -136,9 +119,9 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
+        features={frontmatter.features}
+        categories={frontmatter.categories}
         description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   )
@@ -168,24 +151,36 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
-          title
-          description
-        }
         description
-        intro {
-          blurbs {
+        features {
+          description
+          heading
+          feature {
+            title
+            slug
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 2048, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
-            text
           }
-          heading
+        }
+        categories {
           description
+          heading
+          category {
+            title
+            slug
+            image {
+              childImageSharp {
+                fluid(maxWidth: 2048, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
         }
       }
     }
