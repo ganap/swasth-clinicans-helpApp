@@ -14,7 +14,7 @@ features:
   description: Getting start with popular features of swasth
   feature:
     - image: /img/blog-index.jpg
-      slug: setting-up-your-practices
+      slug: getting-started-with-simplepractice
       title: 'Setting up your practices '
     - image: /img/chemex.jpg
       slug: live-classes
