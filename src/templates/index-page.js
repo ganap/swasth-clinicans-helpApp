@@ -84,12 +84,12 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div> */}
-                {/* <section className="section">
+                 <section className="section">
                   <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
                     {categories.heading}
                   </h3>
                   <Categories gridItems={categories.category} />
-                </section> */}  
+                </section> 
               </div>
             </div>
           </div>
