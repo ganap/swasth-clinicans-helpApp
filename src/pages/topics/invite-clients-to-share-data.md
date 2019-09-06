@@ -13,8 +13,6 @@ description: >-
   ![](/img/add-client.jpg)
 
 
-
-
   ## Invite clients
 
 
@@ -41,8 +39,6 @@ description: >-
 
 
   ![](/img/client-sharing.jpg)
-
-
 
 
   ## View client data
