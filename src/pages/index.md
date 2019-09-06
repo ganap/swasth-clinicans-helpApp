@@ -23,10 +23,10 @@ features:
 categories:
   category:
     - image: /img/coffee-gear.png
-      slug: account-questions
+      slug: categories/account-questions
       title: Account Questions
     - image: /img/coffee.png
-      slug: clinician-tools
+      slug: categories/clinician-tools
       title: Clinician tools
     - image: /img/practice-mgmt.jpeg
       slug: practice-management
