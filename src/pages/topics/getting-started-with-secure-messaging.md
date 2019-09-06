@@ -1,6 +1,6 @@
 ---
 templateKey: topic-page
-title: ACCESS TO SWASTH FOR CLINICIANS
+title: Access to the Clinician App
 date: 2019-09-06T14:08:55.693Z
 description: >-
   ## Sign up
