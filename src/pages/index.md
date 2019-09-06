@@ -1,27 +1,25 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: How can we help you?
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Test
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Swasth for Clinicians is an engagement platform for behavioral health
+  practitioners using evidence based treatment modalities.
 features:
   heading: Getting Started
-  description: Getting start with popular features of swasth
+  description: Getting started with Swasth for Clinicians
   feature:
-    - image: /img/blog-index.jpg
-      slug: getting-started-with-simplepractice
-      title: 'Setting up your practices '
-    - image: /img/chemex.jpg
-      slug: live-classes
-      title: Live Classes
-    - image: /img/blog-index.jpg
-      slug: security-compliances
-      title: 'Security & Compliances '
+    - image: /img/setting-up.jpg
+      slug: account-setup
+      title: Setting up your account
+    - image: /img/videos.jpg
+      slug: videos
+      title: Videos
+    - image: /img/important.png
+      slug: important-topics
+      title: Important topics
 categories:
   category:
     - image: /img/coffee-gear.png
@@ -34,6 +32,6 @@ categories:
       slug: practice-management
       title: Practice Management
   heading: Browse All Topics
-  description: Popular categories of swasth
+  description: Help topics organized by categories for easy browsing
 ---
 
