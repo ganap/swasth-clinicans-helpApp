@@ -28,7 +28,7 @@ categories:
     - image: /img/coffee.png
       slug: clinician-tools
       title: Clinician tools
-    - image: /img/coffee-gear.png
+    - image: /img/practice-mgmt.jpeg
       slug: practice-management
       title: Practice Management
   heading: Browse All Topics
