@@ -26,8 +26,8 @@ categories:
       slug: account-questions
       title: Account Questions
     - image: /img/coffee.png
-      slug: apps
-      title: Apps
+      slug: clinician-tools
+      title: Clinician tools
     - image: /img/coffee-gear.png
       slug: practice-management
       title: Practice Management
