@@ -23,7 +23,7 @@ features:
 categories:
   category:
     - image: /img/coffee-gear.png
-      slug: categories/client-portal
+      slug: account-questions
       title: Account Questions
     - image: /img/coffee.png
       slug: clinician-tools
