@@ -1,6 +1,6 @@
 ---
 templateKey: topic-page
-title: Access to Clinician App
+title: Getting started with Secure Messaging
 date: 2019-09-06T14:08:55.693Z
 description: >-
   ## Sign up
