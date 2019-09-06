@@ -30,9 +30,9 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "feature-page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "featuredimage", widget: image, required: false, default: null}
+      - {label: "Description", name: "description", widget: "markdown", required: false, default: null}
+      - {label: "Topics", name: topics, widget: list, required: false, fields: [{label: Heading, name: heading, widget: string, required: false, default: null}, {label: Description, name: description, widget: text, required: false, default: null}, {label: "topic", name: "topic", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
 
   - name: "categories"
     label: "Categories"
@@ -40,12 +40,27 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "category-page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "featuredimage", widget: image, required: false, default: null}
+      - {label: "Description", name: "description", widget: "markdown", required: false, default: null}
+      - {label: "Topics", name: topics, widget: list, required: false, fields: [{label: Heading, name: heading, widget: string, required: false, default: null}, {label: Description, name: description, widget: text, required: false, default: null}, {label: "topic", name: "topic", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
 
+  - name: "topics"
+    label: "Topics"
+    folder: "src/pages/topics"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "topic-page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featuredimage", widget: image, required: false, default: null}
+      - {label: "Description", name: "description", widget: "markdown", required: false, default: null}
+      - {label: "Topics", name: topics, widget: list, required: false, fields: [{label: Heading, name: heading, widget: string, required: false, default: null}, {label: Description, name: description, widget: text, required: false, default: null}, {label: "topic", name: "topic", widget: list, fields: [{label: Title, name: title, widget: string}, {label: Slug, name: slug, widget: string}]}]}
+
+ 
   - name: "pages"
     label: "Pages"
     files:

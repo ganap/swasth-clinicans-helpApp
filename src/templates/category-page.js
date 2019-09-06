@@ -25,11 +25,15 @@ export const FeatureTemplate = ({
             <PreviewCompatibleImage imageInfo={{...feature, image: featuredimage}} />
             : ''}
             <p className="content">{description}</p>
+            <div className="columns">
             {
               topics.map(topic => (
+                <div className="column is-half">
                 <TopicsGrid {...topic} />
+                </div>
               ))
             }
+            </div>
           </div>
         </div>
       </div>
@@ -72,7 +76,7 @@ Feature.propTypes = {
 export default Feature
 
 export const pageQuery = graphql`
-  query FeaturePostByID($id: String!) {
+  query CategoryByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
