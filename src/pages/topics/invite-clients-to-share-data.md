@@ -10,12 +10,18 @@ description: >-
   set the client to 'Active' using the toggle button.
 
 
+  ![](/img/add-client.jpg)
+
+
   ## Invite clients
 
 
   Navigate to the corresponding app that your client is using under Apps (for
   eg. DBT Coach). Then click on the "Invite Clients" button. Then from the list
   of clients in the dropdown box select the client to invite and click "Send".
+
+
+  ![](/img/invite-client.jpg)
 
 
   ## Client's sharing settings
@@ -30,6 +36,9 @@ description: >-
   diary card items that they want to share with you and click "Save".
 
 
+  ![](/img/client-sharing.jpg)
+
+
   ## View client data
 
 
@@ -37,5 +46,8 @@ description: >-
   app and navigate to the corresponding app eg. DBT Daily app where you can see
   the client's name added to the list. When you click on the client's name, you
   can see his/her diary data (entries and statistics).
+
+
+  ![](/img/view-client-data.jpg)
 ---
 
