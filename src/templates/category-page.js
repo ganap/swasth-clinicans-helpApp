@@ -27,11 +27,11 @@ export const FeatureTemplate = ({
             <p className="content">{description}</p>
             <div className="columns">
             {
-              topics.map(topic => (
+              topics && topics.length ? topics.map(topic => (
                 <div className="column is-half">
                 <TopicsGrid {...topic} />
                 </div>
-              ))
+              )) : ''
             }
             </div>
           </div>

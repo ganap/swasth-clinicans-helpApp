@@ -26,9 +26,9 @@ export const FeatureTemplate = ({
             : ''}
             <p className="content">{description}</p>
             {
-              topics.map(topic => (
+              topics && topics.length ? topics.map(topic => (
                 <TopicsGrid {...topic} />
-              ))
+              )) : ''
             }
           </div>
         </div>
