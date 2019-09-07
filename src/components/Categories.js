@@ -9,7 +9,7 @@ const CategoriesGrid = ({ gridItems }) => (
         <section className="section" style={{ padding: "5px" }}>
           <div className="has-text-centered">
               <PreviewCompatibleImage imageInfo={item} />
-              <p>{item.title}</p>
+              <Link to={`${routes.categories}/${item.slug}`}>{item.title}</Link>
           </div>
         </section>
       </div>
