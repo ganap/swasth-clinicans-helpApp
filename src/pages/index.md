@@ -28,9 +28,9 @@ categories:
     - image: /img/coffee.png
       slug: clinician-tools
       title: Clinician tools
-    - image: /img/practice-mgmt.jpeg
-      slug: practice-management
-      title: Practice Management
+    - image: /img/coffee.png
+      slug: client-portal
+      title: Client Portal
   heading: Browse All Topics
   description: Help topics organized by categories for easy browsing
 ---
