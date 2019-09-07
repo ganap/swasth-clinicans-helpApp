@@ -17,8 +17,8 @@ description: >+
 
 topics:
   - topic:
-      - slug: Switching-and-Data-Imports
-        title: Switching and Data Imports
+      - slug: topics/getting-started-with-secure-messaging
+        title: Getting started with Secure Messaging
   - heading: Switching and Data Imports
     topic:
       - slug: How to Switch to SimplePractice
