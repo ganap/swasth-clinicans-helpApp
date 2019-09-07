@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { Link } from 'gatsby';
+import { routes } from './constants';
 
 const CategoriesGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
