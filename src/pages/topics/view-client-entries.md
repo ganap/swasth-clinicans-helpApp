@@ -9,19 +9,13 @@ description: >-
   based on the app.
 
 
-
-
   This gives a holistic view of your client and you can even click on an
   individual exercise to see the answers to question on each exercise (as long
   as your client has chosen to share exercise data with you).
 
 
-
-
   The statistic tab gives an overall summary for the selected period such as
   mood chart, most common skills, behaviors, etc.
-
-
 
 
   Being able to see data at a very detailed level as well as summary helps you
