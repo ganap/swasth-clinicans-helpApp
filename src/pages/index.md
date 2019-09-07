@@ -22,15 +22,33 @@ features:
       title: Important topics
 categories:
   category:
-    - image: /img/coffee-gear.png
-      slug: account-questions
-      title: Account Questions
+    - image: /img/favicon-32x32.png
+      slug: account-settings
+      title: Account Settings
     - image: /img/coffee.png
       slug: clinician-tools
       title: Clinician tools
+    - image: /img/apple-touch-icon.png
+      slug: client-notes-documentation
+      title: Client Notes & Documentation
+    - image: /img/coffee-gear.png
+      slug: scheduling-and-calendar
+      title: Scheduling and Calendar
     - image: /img/coffee.png
       slug: client-portal
       title: Client Portal
+    - image: /img/flavor_wheel.jpg
+      slug: billing-your-clients
+      title: Billing Your Clients
+    - image: /img/meeting-space.png
+      slug: insurance-billing
+      title: Insurance Billing
+    - image: /img/meeting-space.png
+      slug: client-portal
+      title: Client Portal
+    - image: /img/tutorials.png
+      slug: security
+      title: Security
   heading: Browse All Topics
   description: Help topics organized by categories for easy browsing
 ---
