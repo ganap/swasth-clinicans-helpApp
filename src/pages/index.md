@@ -44,8 +44,8 @@ categories:
       slug: insurance-billing
       title: Insurance Billing
     - image: /img/meeting-space.png
-      slug: client-portal
-      title: Client Portal
+      slug: insights-reporting
+      title: Insights and Reporting
     - image: /img/tutorials.png
       slug: security
       title: Security
