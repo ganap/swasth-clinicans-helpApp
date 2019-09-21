@@ -22,31 +22,31 @@ features:
       title: Important topics
 categories:
   category:
-    - image: /img/favicon-32x32.png
+    - image: /img/account-setting.png
       slug: account-settings
       title: Account Settings
-    - image: /img/coffee.png
+    - image: /img/clinician_tools.png
       slug: clinician-tools
       title: Clinician tools
-    - image: /img/apple-touch-icon.png
+    - image: /img/client-notes.png
       slug: client-notes-documentation
       title: Client Notes & Documentation
-    - image: /img/coffee-gear.png
+    - image: /img/schedule.png
       slug: scheduling-and-calendar
       title: Scheduling and Calendar
-    - image: /img/coffee.png
+    - image: /img/client-portal.png
       slug: client-portal
       title: Client Portal
-    - image: /img/flavor_wheel.jpg
+    - image: /img/billing-clients.png
       slug: billing-your-clients
       title: Billing Your Clients
-    - image: /img/meeting-space.png
+    - image: /img/insurance.png
       slug: insurance-billing
       title: Insurance Billing
-    - image: /img/meeting-space.png
+    - image: /img/report.png
       slug: insights-reporting
       title: Insights and Reporting
-    - image: /img/tutorials.png
+    - image: /img/security.png
       slug: security
       title: Security
   heading: Browse All Topics
