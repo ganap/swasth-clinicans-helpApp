@@ -11,7 +11,7 @@ topics:
         title: View clients' homework
   - heading: Entries
     topic:
-      - slug: topics/view-clients-entries
+      - slug: topics/view-client-entries
         title: View Clients' Entries
 ---
 
