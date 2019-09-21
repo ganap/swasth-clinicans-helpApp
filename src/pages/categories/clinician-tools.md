@@ -9,5 +9,9 @@ topics:
         title: Assign homework
       - slug: topics/view-client-homework
         title: View clients' homework
+  - heading: Entries
+    topic:
+      - slug: topics/view-clients-entries
+        title: View Clients' Entries
 ---
 
