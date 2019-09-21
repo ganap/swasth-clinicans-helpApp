@@ -8,6 +8,6 @@ topics:
       - slug: topics/assign-homework
         title: Assign homework
       - slug: topics/view-client-entries
-        title: View clients' homework
+        title: View clients' entries
 ---
 
