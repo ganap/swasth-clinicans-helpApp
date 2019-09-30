@@ -9,6 +9,8 @@ Hello App.
 
 asdsad
 
+![text](/img/chemex.jpg "title test")
+
 **asdsad**
 
 **asd**
