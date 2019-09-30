@@ -5,6 +5,8 @@ date: 2019-09-06T22:04:45.246Z
 ---
 <iframe class="video-custom-component" src="https://www.youtube.com/embed/rPRvB2Tanos"></iframe>
 
+<div class="custom-alert-text"><b> Note:</b>sadsadsa</div>
+
 Hello App.
 
 asdsad
