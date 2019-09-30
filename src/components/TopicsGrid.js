@@ -11,9 +11,9 @@ const TopicsGrid = ({ heading, topic }) => (
     }
     <ul>
     {
-      topic.map(({title, slug}) => (
+      topic ? topic.map(({title, slug}) => (
         <Link to={slug}><li>{title}</li></Link>
-      ))
+      )) : ''
     }
     </ul>
   </div>

@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import TopicsGrid from '../components/TopicsGrid';
 
-export const FeatureTemplate = ({
+export const CategoryTemplate = ({
   feature,
   helmet,
 }) => {
@@ -41,7 +41,7 @@ export const FeatureTemplate = ({
   )
 }
 
-FeatureTemplate.propTypes = {
+CategoryTemplate.propTypes = {
   helmet: PropTypes.object,
   feature: PropTypes.object
 }
@@ -51,7 +51,7 @@ const Feature = ({ data }) => {
 
   return (
     <Layout>
-      <FeatureTemplate
+      <CategoryTemplate
         feature={post.frontmatter}
         helmet={
           <Helmet titleTemplate="%s | Feature">
