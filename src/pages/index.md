@@ -3,7 +3,12 @@ templateKey: index-page
 title: How can we help you?
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
-subheading: Test
+subheading: >-
+  Swasth helps you grow your practice by providing you with tools that are
+  simple and effective. By reviewing your clients' behavioral health data in
+  real-time you can better tailor your treatment approach. Schedule
+  appointments, assign homework and assessments, secure client chat and
+  teletherapy all via a secure HIPAA-compliant platform.
 description: >-
   Swasth for Clinicians is an engagement platform for behavioral health
   practitioners using evidence based treatment modalities.
