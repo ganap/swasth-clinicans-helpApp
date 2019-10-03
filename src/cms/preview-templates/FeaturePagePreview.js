@@ -3,12 +3,13 @@ import PropTypes from 'prop-types'
 import { FeatureTemplate } from '../../templates/feature-page'
 import Helmet from 'react-helmet'
 
-const FeaturePagePreview = ({ entry, getAsset }) => {
+const FeaturePagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(['data']).toJS()
   if (data) {
     return (
       <FeatureTemplate
         feature={data}
+        content={widgetFor('body')}
         helmet={
           <Helmet titleTemplate="%s | Feature">
             <title>{`${data.title}`}</title>

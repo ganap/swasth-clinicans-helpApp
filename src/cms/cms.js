@@ -11,11 +11,14 @@ import CategoryPagePreview from './preview-templates/CategoryPagePreview'
 import TopicsPagePreview from './preview-templates/TopicsPagePreview'
 import VideoPlayer from './custom-component/VideoPlayer'
 import Note from './custom-component/Note'
+import QuickTip from './custom-component/QuickTip'
+
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 CMS.registerEditorComponent(VideoPlayer);
 CMS.registerEditorComponent(Note);
+CMS.registerEditorComponent(QuickTip);
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('features', FeaturePagePreview)

@@ -6,12 +6,18 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import TopicsGrid from '../components/TopicsGrid';
+import Content, { HTMLContent } from '../components/Content'
+
+
 
 export const CategoryTemplate = ({
   feature,
   helmet,
+  content,
+  contentComponent
 }) => {
-  const { description, title, featuredimage, topics } = feature;
+  const {  title, featuredimage, topics } = feature;
+  const PostContent = contentComponent || Content;
   return (
     <section className="section">
       {helmet || ''}
@@ -24,7 +30,7 @@ export const CategoryTemplate = ({
             { featuredimage ?
             <PreviewCompatibleImage imageInfo={{...feature, image: featuredimage}} />
             : ''}
-            <p className="content">{description}</p>
+            <PostContent content={content} />
             <div className="columns">
             {
               topics && topics.length ? topics.map(topic => (
@@ -43,7 +49,9 @@ export const CategoryTemplate = ({
 
 CategoryTemplate.propTypes = {
   helmet: PropTypes.object,
-  feature: PropTypes.object
+  feature: PropTypes.object,
+  content: PropTypes.node,
+  contentComponent: PropTypes.func,
 }
 
 const Feature = ({ data }) => {
@@ -53,6 +61,8 @@ const Feature = ({ data }) => {
     <Layout>
       <CategoryTemplate
         feature={post.frontmatter}
+        content={post.html}
+        contentComponent={HTMLContent}
         helmet={
           <Helmet titleTemplate="%s | Feature">
             <title>{`${post.frontmatter.title}`}</title>
@@ -90,7 +100,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        description,
         topics{
           heading,
           topic{

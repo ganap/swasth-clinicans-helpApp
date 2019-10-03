@@ -10,38 +10,47 @@ import vimeo from '../img/social/vimeo.svg'
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
-          />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+      <footer className="footer has-swasth-background has-text-white-ter">
+        <div className="content has-text-centered has-text-white-ter">
+          <div className="container has-text-white-ter">
             <div className="columns">
               <div className="column is-4">
+              <h1 className="title is-size-5 navbar-item footer-section-title">
+                About Swasth
+              </h1>
+                  <ul className="menu-list">
+                    <li className="navbar-item">
+                    Driving towards better Behavioral Health.
+                    </li>
+                    <li className="navbar-item">
+                    Email: info@swasth.co
+                    </li>
+                  </ul>
+              </div>
+              <div className="column is-3">
+              <h1 className="title is-size-5 navbar-item footer-section-title">
+                Mobile Apps
+              </h1>
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
                       <Link to="/" className="navbar-item">
-                        Home
+                        DBT Coach
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/about">
-                        About
+                        DBT Daily
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/products">
-                        Products
+                        CBT Companion
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
+                        ACT Coach
                       </Link>
                     </li>
                     <li>
@@ -57,23 +66,26 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4">
+              <div className="column is-3">
+              <h1 className="title is-size-5 navbar-item footer-section-title">
+               Support
+              </h1>
                 <section>
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                       Help Center
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
-                        Contact
+                        Contact Support
                       </Link>
                     </li>
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              <div className="column is-2 social">
                 <a title="facebook" href="https://facebook.com">
                   <img
                     src={facebook}

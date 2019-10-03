@@ -9,9 +9,9 @@ const CategoriesGrid = ({ gridItems }) => (
     {gridItems.map(item => (
       <div key={item.title} className="column is-one-quarter">
         <section className="section" style={{ padding: "5px" }}>
-          <div className="has-text-centered">
-              <PreviewCompatibleImage imageInfo={item} />
-              <Link to={`${routes.categories}/${item.slug}`}>{item.title}</Link>
+          <div className="has-text-centered category-grid-box">
+              <PreviewCompatibleImage imageInfo={item} style={{ maxWidth: "150px", margin: "35px"}}/>
+              <Link to={`${routes.categories}/${item.slug}`} className="category-link-text">{item.title}</Link>
           </div>
         </section>
       </div>

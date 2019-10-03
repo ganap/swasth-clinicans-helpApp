@@ -9,9 +9,9 @@ const FeatureGrid = ({ gridItems }) => (
     {gridItems.map(item => (
       <div key={item.title} className="column is-4">
         <section className="section" style={{ padding: "5px" }}>
-          <div className="has-text-centered">
+          <div className="has-text-centered feature-grid-box">
               <PreviewCompatibleImage imageInfo={item} />
-              <Link to={`${routes.features}/${item.slug}`}>{item.title}</Link>
+              <Link to={`${routes.features}/${item.slug}`} className="feature-link-text">{item.title}</Link>
           </div>
         </section>
       </div>

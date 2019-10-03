@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
@@ -7,6 +7,8 @@ import Layout from '../components/Layout'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import TopicsGrid from '../components/TopicsGrid';
 import Content, { HTMLContent } from '../components/Content'
+import routes from '../components/constants'
+import ReactPlayer from 'react-player'
 
 export const TopicsTemplate = ({
   feature,
@@ -14,29 +16,58 @@ export const TopicsTemplate = ({
   content,
   contentComponent
 }) => {
-  const { description, title, featuredimage, topics } = feature;
+  const { description, title, featuredimage, topics, recentTopics, liveDemo } = feature;
   const PostContent = contentComponent || Content
   return (
     <section className="section">
       {helmet || ''}
       <div className="container content">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            { featuredimage ?
-            <PreviewCompatibleImage imageInfo={{...feature, image: featuredimage}} />
-            : ''}
-            <PostContent content={content} />
+          <div className="column is-10 is-offset-1 content">
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                  {title}
+              </h1>
             <div className="columns">
-            {
-              topics && topics.length ? topics.map(topic => (
-                <div className="column is-half">
-                <TopicsGrid {...topic} />
+              <div className="column is-8">
+                { featuredimage ?
+                <PreviewCompatibleImage imageInfo={{...feature, image: featuredimage}} />
+                : ''}
+                <PostContent content={content} />
+                <div className="columns">
+                {
+                  topics && topics.length ? topics.map(topic => (
+                    <div className="column is-half">
+                    <TopicsGrid {...topic} />
+                    </div>
+                  )) : ''
+                }
+              </div>
+            </div>
+            <div className="column is-4 content">
+              {
+                liveDemo ?
+              <Fragment>
+                <h1 className="title is-size-4 has-text-weight-bold is-bold-light">
+                  Live Demo
+                </h1>
+                <div className="box">
+                {
+                <ReactPlayer url={liveDemo} width="100%" height="186px"/>
+                }
                 </div>
-              )) : ''
-            }
+              </Fragment>
+               : ''}
+              <h1 className="title is-size-4 has-text-weight-bold is-bold-light">
+                Related Topics
+              </h1>
+              <div className="box">
+              {
+               recentTopics ? recentTopics.map(({slug, title}) => (
+                <Link to={`${routes.topics}/${slug}`}>{title}</Link>
+               )) : ''
+              }
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -103,6 +134,11 @@ export const pageQuery = graphql`
             title,
             slug
           }
+        }
+        liveDemo
+        recentTopics{
+          title,
+          slug
         }
       }
     }
