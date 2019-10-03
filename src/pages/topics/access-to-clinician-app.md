@@ -9,8 +9,6 @@ recentTopics:
     title: Topic One
 liveDemo: 'https://home.wistia.com/medias/e4a27b971d'
 ---
-<iframe class="video-custom-component" src="https://www.youtube.com/embed/rPRvB2Tanos"></iframe>
-
 <div class="custom-alert-text"><b> Note:</b>sadsadsa</div>
 
 Hello App.
