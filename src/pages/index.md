@@ -13,12 +13,12 @@ description: >-
   Swasth for Clinicians is an engagement platform for behavioral health
   practitioners using evidence based treatment modalities.
 features:
-  heading: Getting Started
+  heading: Getting Started with Swasth® for Clinicians
   description: Getting started with Swasth for Clinicians
   feature:
     - image: /img/account_setting.png
-      slug: account-setup
-      title: Setting up your account
+      slug: quick-start
+      title: Quick start
     - image: /img/video.png
       slug: videos
       title: Videos
