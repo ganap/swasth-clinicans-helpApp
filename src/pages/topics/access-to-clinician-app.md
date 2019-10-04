@@ -15,8 +15,6 @@ liveDemo: 'https://youtu.be/sg32fFAFvYw'
 
 The first step of provider on-boarding is signup. If you already signed up for DBT Daily app, then its better to use a different email than what you signed up to DBT Daily with. If you choose to use the same email, then on the DBT Daily app when you login you will be forced to enter MFA Code. We need to do that on Swasth for Clinicians for security and privacy of users' data.
 
-
-
 ## Account Confirmation
 
 Once you sign up and verify email, we will verify your credentials and confirm your account. You will receive an email about the account being confirmed and then you can login.
