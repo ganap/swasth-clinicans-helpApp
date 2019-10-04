@@ -8,8 +8,6 @@ recentTopics:
     title: Invite clients to share their app data
 liveDemo: 'https://youtu.be/sg32fFAFvYw'
 ---
-# Access to Swasth for Clinicians
-
 ## Sign up
 
 The first step of provider on-boarding is signup.
