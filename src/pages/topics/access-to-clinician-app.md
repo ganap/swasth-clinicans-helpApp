@@ -5,8 +5,8 @@ date: 2019-09-06T22:04:45.246Z
 topics:
   - {}
 recentTopics:
-  - slug: topic-one
-    title: Topic One
+  - slug: invite-clients-to-share-data
+    title: Invite clients to share their app data
 liveDemo: 'https://youtu.be/sg32fFAFvYw'
 ---
 # Access to Swasth for Clinicians
