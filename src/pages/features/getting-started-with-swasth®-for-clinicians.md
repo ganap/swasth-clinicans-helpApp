@@ -7,7 +7,7 @@ topics:
   - heading: Account setup
     topic:
       - slug: access-to-clinician-app
-        title: Signup for a clinician account
+        title: 'Signup, Account Confirmation and Two-Factor Authentication'
 ---
 This Getting Started section will help you to get set up in the clinician app to run your practice smoothly and engage with your clients. Going through these sections will help you familiarize yourself with the features of Clinician app.
 
