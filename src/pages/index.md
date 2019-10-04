@@ -17,7 +17,7 @@ features:
   description: Getting started with Swasth for Clinicians
   feature:
     - image: /img/account_setting.png
-      slug: quick-start
+      slug: getting-started-with-swasth®-for-clinicians
       title: Quick start
     - image: /img/video.png
       slug: videos
