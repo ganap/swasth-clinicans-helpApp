@@ -28,6 +28,6 @@ The very first time, you login you will have to set up Two-Factor Authentication
 
 If you choose Google Authenticator - you will need to set it up. You can refer to this [guide](https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DiOS&hl=en). Once you set up authenticator to sync with your account, every time you login you will be asked for MFA code and you will enter the code from the authenticator app.
 
-![](/img/screen-shot-2019-10-04-at-4.13.20-pm.png)
+![]()
 
 - - -
