@@ -1,6 +1,6 @@
 ---
 templateKey: topic-page
-title: Getting Started
+title: Getting Started with Swasth® for Clinicians
 date: 2019-10-08T19:55:37.238Z
 topics: []
 ---
