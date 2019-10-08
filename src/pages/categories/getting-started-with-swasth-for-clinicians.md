@@ -32,13 +32,9 @@ Below you'll see the recommended walkthrough for a new Swasth user experience, s
 
 •	Support
 
-
-
 # Clients and their Portal
 
 The Swasth for Clinicians Client Portal is an easy and secure way to engage with your clients online so that you don't have to rely on email when sharing sensitive information.
-
-
 
 With our Client Portal, you have the flexibility to: 
 
@@ -58,20 +54,80 @@ With our Client Portal, you have the flexibility to:
 
 You'll get a unique URL that links to your unique Client Portal. You can edit this link to match your name, practice name, or whatever you'd like to display to your clients.
 
-View your practice's Client Portal 
+View your practice's Client Portal 
 
-1.	Go to Practice Management > Settings > Client Portal
-
-2.	Under the section Client Portal Address, you'll see your Practice URL. If you haven't locked the URL you can easily change it by clicking on the text field and editing it.
-
-3.	To lock your practice URL, make sure you have edited the URL and then click Save & Lock.
+1. Go to Practice Management > Settings > Client Portal
+2. Under the section Client Portal Address, you'll see your Practice URL. If you haven't locked the URL you can easily change it by clicking on the text field and editing it.
+3. To lock your practice URL, make sure you have edited the URL and then click Save & Lock.
 
 View your practice's Client Portal 
 
-1.	Go to My Account > Settings > Client Portal
-
-2.	Under the section Client Portal Addressyou'll see your Practice URL. If you haven't locked the URL you can easily change it by clicking on the text field and editing it.
-
-3.	To lock your practice URL, make sure you have edited the URL and then click Save & Lock.
+1. Go to My Account > Settings > Client Portal
+2. Under the section Client Portal Addressyou'll see your Practice URL. If you haven't locked the URL you can easily change it by clicking on the text field and editing it.
+3. To lock your practice URL, make sure you have edited the URL and then click Save & Lock.
 
 ![](/img/clientportal.png)
+
+Once you've locked your practice URL you will now see buttons to View Client Portal and Copy Link.
+
+•	View Client Portal opens a new tab and takes you to your Client Portal page.
+
+•	Copy Link copies your practice URL so you can paste it into an email or add it to your website. For help adding the URL to your own website, contact your website administrator.
+
+•	Once these steps are completed, patient may fill up intake and consent forms online.
+
+Existing clients will receive the link to your Client Portal when you invite them or if you provide them with the practice link elsewhere.
+
+Once your client signs in, they'll be able to:
+
+1.	View documents you have shared 
+
+2.	See their statements, superbills, and invoices
+
+3.	Book/cancel their appointments online with Online Booking if you enable it (Professional Plan)
+
+4.	Pay for their appointments via Stripe
+
+What do my clients see?
+
+Depending on whether Online Booking is enabled within your account, clients will be presented upon sign on with a homepage navigating to Appointments, Documents, and Billing & Payments.
+
+Setting up the Client Portal
+
+This walkthrough will guide you through how to set up your Client Portal and start utilizing all its features like sharing intake forms, delivering billing documents, collecting client payments and offering Online Booking.
+
+How to enter your practice information
+
+If you haven't done so already, be sure to fill out your Practice Details. Make sure the following information is how you want it to appear when clients see your portal:
+
+•	Your practice name (displayed at the top of the Client Portal)
+
+•	Time zone
+
+•	Your phone number
+
+•	Your practice address
+
+•	Cancellation policy
+
+![](/img/practicedetails.png)
+
+![](/img/practicedetails_clinicinfo.png)
+
+Adding a new client and navigating your Clients and Contact list
+
+With Swasth Web App, there's no limit to the number of clients you can create and store in your client list. You can create a client from any page in your account, or you can create a client while scheduling their first appointment. 
+
+In this guide, you will find steps for...
+
+•	Adding a client from the blue navigation bar
+
+Adding a client from the blue navigation bar
+
+•	Click the Add Client button
+
+You'll be taken to the Add a new client page where you can enter basic identification, billing, emergency contact, and communication preference information. Click Save Client. 
+
+![](/img/addingclient.png)
+
+<div class="custom-alert-text"><b> Note:</b>An email address will be required if you have checked the Send Client Intake box. Simply uncheck this box if you do not wish to send the intake to that client. </div>
