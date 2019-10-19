@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: How can we help you?
-image: /img/home-jumbotron.jpg
+image: /img/account_setting.png
 heading: Great coffee with a conscience
 subheading: >-
   Swasth helps you grow your practice by providing you with tools that are
@@ -13,16 +13,16 @@ description: >-
   Swasth for Clinicians is an engagement platform for behavioral health
   practitioners using evidence based treatment modalities.
 features:
-  heading: Getting Started
+  heading: Getting Started with Swasth® for Clinicians
   description: Getting started with Swasth for Clinicians
   feature:
-    - image: /img/setting-up.jpg
-      slug: account-setup
-      title: Setting up your account
-    - image: /img/videos.jpg
+    - image: /img/account_setting.png
+      slug: getting-started-with-swasth®-for-clinicians
+      title: Quick start
+    - image: /img/video.png
       slug: videos
       title: Videos
-    - image: /img/important.png
+    - image: /img/important_topics.png
       slug: important-topics
       title: Important topics
 categories:
