@@ -5,6 +5,10 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Categories from '../components/Categories'
+import Search from "../components/search"
+const searchIndices = [
+  { name: `swasth`, title: `Pages`, hitComp: `PageHit` },
+]
 
 export const IndexPageTemplate = ({
   image,
@@ -46,19 +50,21 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-bold"
           style={{
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
             textAlign: "center",
             margin: "auto",
-            fontSize: "12px",
-            lineHeight: "26px"
+            fontSize: "18px",
+            lineHeight: "26px",
+            width: '60%'
           }}
         >
           {subheading}
         </h3>
+        <Search indices={searchIndices} />
       </div>
     </div>
     <section className="section section--gradient">
