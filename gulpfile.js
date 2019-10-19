@@ -20,7 +20,7 @@ function genrateJSON(cb) {
           blacklist    = [
             "/page/",
             "/tags/",
-            "/tags/",
+            "/blog/",
             "/pages/index.html",
             "/thanks",
             "/admin/",
