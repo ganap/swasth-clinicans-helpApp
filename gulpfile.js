@@ -70,7 +70,7 @@ function genrateJSON(cb) {
 }
 
 async function sendIndex () {
-  const algolia = algoliasearch('6ODI645ODH', '21b0fe190a47e56e73207563d8bab947');
+  const algolia = algoliasearch('W3Y8BZYHS2', 'bbc901c3fe65c9a5b29a6f638bb5ce4a');
   const algoliaIndex = algolia.initIndex("swasth");
   const index = JSON.parse(fs.readFileSync("./PagesIndex.json", "utf8"));
   await algoliaIndex.clearIndex();
