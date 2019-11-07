@@ -3,6 +3,9 @@ templateKey: topic-page
 title: Clients and their Portal
 date: 2019-11-06T22:20:39.529Z
 topics: []
+recentTopics:
+  - slug: topics/setting-up-the-client-portal
+    title: Setting up the Client Portal
 ---
 Swasth for Clinicians Client Portal is an easy and secure way to engage with your clients online so that you don't have to rely on email when sharing sensitive information.
 
