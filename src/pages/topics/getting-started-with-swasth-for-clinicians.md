@@ -4,9 +4,9 @@ title: Getting Started with Swasth for Clinicians
 date: 2019-11-06T22:04:45.325Z
 topics:
   - topic:
-      - slug: topic/Switching and Data Imports
+      - slug: topics/Switching and Data Imports
         title: Switching and Data Imports
-      - slug: topic/Clients and their Portal
+      - slug: topics/clients-and-their-portal
         title: Clients and their Portal
       - slug: 'topic/Intakes, Forms, and Templates'
         title: 'Intakes, Forms, and Templates'
