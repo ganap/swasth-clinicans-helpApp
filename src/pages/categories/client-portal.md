@@ -15,9 +15,9 @@ topics:
         title: How to set up Online Booking
   - heading: General Client Portal Info
     topic:
-      - slug: Setting up your practice URL
-        title: Setting up your practice URL
-      - slug: ' Setting up the Client Portal'
+      - slug: clients-and-their-portal
+        title: Clients and their Portal
+      - slug: topics/setting-up-the-client-portal
         title: ' Setting up the Client Portal'
 ---
 
