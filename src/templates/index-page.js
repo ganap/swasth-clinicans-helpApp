@@ -2,6 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
+import topBack from '../img/assets/top-bg.png'
+import bannerIcon from '../img/assets/Swasth-clinician-help-banner-icon.png'
+
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Categories from '../components/Categories'
@@ -19,8 +22,18 @@ export const IndexPageTemplate = ({
   features,
   categories
 }) => (
-  <div>
-    <div
+  <div className="home-top">
+    <div className="full-width-image margin-top-0 home-back">
+      <img src={topBack} className="home-back-img"/>
+      <img src={bannerIcon} className="home-back-icon"/>
+      <div className="home-head-box">
+          <h1 className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen head-title">
+            {title}
+          </h1>
+          <Search indices={searchIndices} />
+      </div>
+    </div>
+    {/* <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: 'linear-gradient(to bottom right, #667eea, #764ba2)',
@@ -66,7 +79,7 @@ export const IndexPageTemplate = ({
         </h3>
         <Search indices={searchIndices} />
       </div>
-    </div>
+    </div> */}
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -75,9 +88,9 @@ export const IndexPageTemplate = ({
               <div className="content">
                 { features ?
                 <section className="section">
-                  <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
+                  {/* <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
                     {features.heading}
-                  </h3>
+                  </h3> */}
                 <Features gridItems={features.feature} />
                 </section>  : ''}
                 {/* <div className="columns">
@@ -88,9 +101,9 @@ export const IndexPageTemplate = ({
                   </div>
                 </div> */}
                  <section className="section">
-                  <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
+                  {/* <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
                     {categories.heading}
-                  </h3>
+                  </h3> */}
                   <Categories gridItems={categories.category} />
                 </section> 
               </div>

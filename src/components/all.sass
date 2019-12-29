@@ -1,5 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -10,10 +11,20 @@ $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+//All new variables
+@import "styles/Variables"
 
+
+body
+  font-family: "Samplinoff" !important;
+  max-width: 1920px;
+  overflow: hidden;
+  margin: auto !important;
+  position: relative;
 
 .navbar .navbar-menu
   box-shadow:none !important
+  font-family: "Samplinoff";
 
 .content .taglist
   list-style: none
@@ -45,7 +56,7 @@ $black: #2b2523
   align-items: center
 
 .full-width-image
-    width: 100vw
+    width: 100%
     height: 400px
     background-size: cover
     background-position: bottom
@@ -82,9 +93,7 @@ $black: #2b2523
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
-footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
+
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -146,9 +155,20 @@ $menu-label-color: $white-ter
   position: absolute;
   width: 100%;
   background-color: transparent;
-  padding: 5px;
+  padding: 15px 5px;
+  > .container
+    max-width: 1116px;
   .navbar-item
     color: #fff;
+    font-size: $normal-font;
+    padding: 0.5rem 1.3rem;
+    height: 40px;
+    margin: auto;
+    &:hover, &:focus, &:focus-within
+      color: #fff;
+  .navbox-action-item
+    margin-left: 50px;
+    display: flex;
   img
     height: 35px;
     width: auto;
@@ -158,18 +178,7 @@ $menu-label-color: $white-ter
   position: relative
 
 
-// footer custom
-.has-swasth-background
-  background-color: #394164 !important;
-  color: aliceblue;
-  border-top: 5px solid rgba(0,0,0,0.2);
-  .footer-section-title
-    margin: 0;
-    color: #fff
-  .menu-list
-    margin-left: 2px
-    .navbar-item
-      color: #fff
+
 
 //note component
 .custom-alert-text
@@ -200,22 +209,15 @@ $menu-label-color: $white-ter
   margin: 10px 0;
 
 
-
-
-//Home feature section style
-.feature-grid-box
-  .feature-link-text
-    font-size: 20px;
-    color: #7c50c5;
-    &:hover
-      color: #ad83f0;
-
 //Home Category section style
 .category-grid-box
   .category-link-text
-    font-size: 20px;
-    color: #7c50c5;
+    font-size: 18px;
+    color: #757DE8;
     &:hover
       color: #ad83f0
 
 
+//All new styles
+@import "styles/global"
+@import "styles/home"

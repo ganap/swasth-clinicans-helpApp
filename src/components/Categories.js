@@ -5,13 +5,17 @@ import { Link } from 'gatsby';
 import { routes } from './constants';
 
 const CategoriesGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="columns is-multiline category-grid">
     {gridItems.map(item => (
-      <div key={item.title} className="column is-one-quarter">
-        <section className="section" style={{ padding: "5px" }}>
+      <div key={item.title} className="column is-4">
+        <section className="section category-grid-item" style={{ padding: "5px" }}>
           <div className="has-text-centered category-grid-box">
-              <PreviewCompatibleImage imageInfo={item} style={{ maxWidth: "150px", margin: "35px"}}/>
-              <Link to={`${routes.categories}/${item.slug}`} className="category-link-text">{item.title}</Link>
+              <div className="category-grid-content-box">
+              <Link to={`${routes.categories}/${item.slug}`} className="category-link-text category-grid-content">{item.title}</Link>
+              </div>
+              <div className="category-grid-img-box">
+              <PreviewCompatibleImage imageInfo={item}  className="category-grid-img"/>
+              </div>
           </div>
         </section>
       </div>

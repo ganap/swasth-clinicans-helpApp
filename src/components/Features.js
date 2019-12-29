@@ -5,13 +5,18 @@ import { Link } from 'gatsby';
 import { routes } from './constants';
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className="columns is-multiline feature-grid">
     {gridItems.map(item => (
       <div key={item.title} className="column is-4">
-        <section className="section" style={{ padding: "5px" }}>
+        <section className="section feature-grid-item" style={{ padding: "5px" }}>
           <div className="has-text-centered feature-grid-box">
-              <PreviewCompatibleImage imageInfo={item} />
-              <Link to={`${routes.features}/${item.slug}`} className="feature-link-text">{item.title}</Link>
+              <div className="feature-grid-img-box">
+                <PreviewCompatibleImage imageInfo={item} className="feature-grid-img"/>
+              </div>
+              <div className="feature-grid-content-box">
+                <Link to={`${routes.features}/${item.slug}`}  className="feature-link-text">{item.title}</Link>
+                <p className="feature-content-text">Lorem ipsum dolor site amet text used as a dummy</p>
+              </div>
           </div>
         </section>
       </div>

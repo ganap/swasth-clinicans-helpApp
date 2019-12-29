@@ -7,7 +7,7 @@ export const Root = styled.div`
   display: grid;
   grid-gap: 1em;
   justify-content: center;
-  margin: 20px 0 0 0;
+  margin: 65px auto 0 auto;
   .search-box{
     width: max-content;
     position: relative;
@@ -46,14 +46,22 @@ export const Input = styled.input`
   outline: none;
   border: none;
   font-size: 1em;
-  background: #eaecee;
+  background: #fff;
   transition: ${props => props.theme.shortTrans};
   border-radius: 3px;
-  width: 30em;
+  width: 50em;
   margin-left: -2.2em;
-  padding: 1.1em 1.1em 1.1em 2.5em;
+  padding: 1.1em 1.1em 1.1em 3.5em;
+  border-radius: 50px;
+  height: 60px;
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,0.1);
   + ${SearchIcon} {
     margin: 0.3em;
+    color: #BDBDBD;
+    transform: translateX(10px);
+  }
+  &::placeholder {
+    color: #BDBDBD;
   }
 `
 export const Form = styled.form`
@@ -66,13 +74,13 @@ export const HitsWrapper = styled.div`
   max-height: 60vh;
   overflow-y: scroll;
   overflow-x: hidden;
-  z-index: 2;
+  z-index: 5;
   -webkit-overflow-scrolling: touch;
   position: absolute;
   right: 0;
   top: calc(100% + 0.5em);
   width: 80vw;
-  max-width: 30em;
+  max-width: 50em;
   box-shadow: 0 0 5px 0;
   padding: 0.7em 1em 0.4em;
   background: white;
