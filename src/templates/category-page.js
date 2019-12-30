@@ -19,7 +19,7 @@ export const CategoryTemplate = ({
   const {  title, featuredimage, topics } = feature;
   const PostContent = contentComponent || Content;
   return (
-    <section className="section">
+    <section className="section category-section">
       {helmet || ''}
       <div className="container content">
         <div className="columns">

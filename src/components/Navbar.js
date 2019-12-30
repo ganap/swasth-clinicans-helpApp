@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../../static/img/swasth-clinicians.png'
+import topBack from '../img/assets/Swasth-clinician-help-account-setting-top-bg.png'
+import bannerIcon from '../../static/img/swasth-clinicians.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -35,8 +37,9 @@ const Navbar = class extends React.Component {
   render() {
     const { transparent } = this.props;
     return (
+      <>
       <nav
-        className={`navbar ${!transparent ? 'colored-header' : ''}`}
+        className={`navbar`}
         role="navigation"
         aria-label="main-navigation"
       >
@@ -82,6 +85,13 @@ const Navbar = class extends React.Component {
             </div>
         </div>
       </nav>
+      { transparent ? "" :
+      <div className="full-width-image margin-top-0 header-back">
+          <img src={topBack} className="header-back-img"/>
+         {/*  <img src={bannerIcon} className="home-back-icon"/> */}
+      </div>
+      }
+    </>
     )
   }
 }

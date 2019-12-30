@@ -7,12 +7,12 @@ import { routes } from './constants';
 const TopicsGrid = ({ heading, topic }) => (
   <div className={`container ${heading ? 'box' : 'content'}`}>
     {
-      heading ? <h3>{heading}</h3> : ''
+      heading ? <h3 className="topic-grid-title">{heading}</h3> : ''
     }
     <ul>
     {
       topic ? topic.map(({title, slug}) => (
-        <Link to={slug}><li>{title}</li></Link>
+        <Link to={slug}><li className="topic-grid-link">{title}</li></Link>
       )) : ''
     }
     </ul>
