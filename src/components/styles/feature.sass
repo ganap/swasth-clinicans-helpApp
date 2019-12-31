@@ -1,2 +1,23 @@
-.feature-section, .category-section
+.feature-section, .category-section, .topic-section
     transform: translate3d(0, -200px, 10px)
+
+
+.topic-section
+    .sub-title
+        font-weight: 400
+    .topic-rich-content
+        h2
+            font-size: 20px
+            color: #757DE8
+            font-weight: 400  
+        p
+            font-size: 14px    
+            & > span
+                max-width: 100% !important    
+                a
+                    box-shadow: 0 0 8px 10px rgba(0,0,0,0.06)
+                    border-radius: 6px 
+                    overflow: hidden
+                    position: relative    
+    .topic-link-container
+        margin-top: 0

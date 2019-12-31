@@ -19,7 +19,7 @@ export const TopicsTemplate = ({
   const { description, title, featuredimage, topics, recentTopics, liveDemo } = feature;
   const PostContent = contentComponent || Content
   return (
-    <section className="section">
+    <section className="section topic-section">
       {helmet || ''}
       <div className="container content">
         <div className="columns">
@@ -32,7 +32,9 @@ export const TopicsTemplate = ({
                 { featuredimage ?
                 <PreviewCompatibleImage imageInfo={{...feature, image: featuredimage}} />
                 : ''}
+                <div className="topic-rich-content">
                 <PostContent content={content} />
+                </div>
                 <div className="columns">
                 {
                   topics && topics.length ? topics.map(topic => (
@@ -47,9 +49,7 @@ export const TopicsTemplate = ({
               {
                 liveDemo ?
               <Fragment>
-                <h1 className="title is-size-4 has-text-weight-bold is-bold-light">
-                  Live Demo
-                </h1>
+                
                 <div className="box">
                 {
                 <ReactPlayer url={liveDemo} width="100%" height="186px"/>
@@ -57,15 +57,17 @@ export const TopicsTemplate = ({
                 </div>
               </Fragment>
                : ''}
-              <h1 className="title is-size-4 has-text-weight-bold is-bold-light">
+              <h2 className="is-size-4 sub-title">
                 Related Topics
-              </h1>
+              </h2>
               <div className="box">
+                <ul className="topic-link-container">
               {
                recentTopics ? recentTopics.map(({slug, title}) => (
-                <Link to={`${routes.topics}/${slug}`}>{title}</Link>
+                <li><Link to={`${routes.topics}/${slug}`} className="topic-grid-link">{title}</Link></li>
                )) : ''
               }
+              </ul>
               </div>
             </div>
             </div>
