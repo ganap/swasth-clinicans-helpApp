@@ -1,5 +1,8 @@
 .home-top
     color: #000
+    @media (max-width: $breakpoint-mobile)
+        .section
+            padding: 5px
     .home-back
         width: 100%
         .home-back-img
@@ -18,11 +21,32 @@
               line-height: 1
               padding: 0.25em
               text-align: center
-              font-size: 2.5em !important
+              font-size: 2.5em 
+        @media (max-width: $breakpoint-mobile)
+            display: inherit
+            width: 300%
+            position: relative
+            .home-back-img
+                width: 100%
+                transform: translate3d(-22%, 0, -1px)
+            .home-back-icon
+                width: 0
+                height: 0
+            .home-head-box
+                transform: translate3d(20px, -120px, 2px)
+                .head-title
+                    font-size: 22px
     .feature-grid
         margin-top: 30px;
         .column
             padding: 0.75rem 1rem
+            @media (max-width: $breakpoint-mobile)
+                margin: 1em 0
+                .feature-grid-item
+                    .feature-grid-img-box
+                        .feature-grid-img
+                            width: 40%;
+                            margin: auto
         .feature-grid-item
             border: solid 2px #F4F4F4
             box-shadow: 0 4px 12px 0 rgba(0,0,0,0.06);
@@ -98,6 +122,8 @@
 
 .footer-wrapper
     height: 470px
+    @media (max-width: $breakpoint-mobile)
+        height: auto
 
 .has-swasth-background
   background-color: #F7F8FE
@@ -107,6 +133,14 @@
   width: 105%
   margin-left: -20px;
   margin-top: 40px
+  @media (max-width: $breakpoint-mobile)
+    margin-left: -30px;
+    margin-top: 50px
+    width: 115%
+    padding: 0.5rem 0rem 3rem
+    .footer-content
+      .container
+          padding: 10px 5px 60px 5px !important
   .footer-content
     transform: rotate(5deg)
     margin-bottom: 60px
@@ -114,6 +148,8 @@
         padding: 60px 20px;
   .footer-logo
     width: 163px
+    @media (max-width: $breakpoint-mobile)
+        display: none
     img
       width: 100%
       max-height: unset
@@ -123,6 +159,8 @@
     font-size: 16px !important
   .menu-list
     margin-left: 2px
+    @media (max-width: $breakpoint-mobile)
+        text-align: center
     .navbar-item
       color: rgba(80,88,191,0.57)
       font-size: 14px !important
@@ -134,8 +172,16 @@
     .after-footer
         display: flex
         justify-content: space-between
+        @media (max-width: $breakpoint-mobile)
+            display: block
+            text-align: center
+            margin: auto
+            padding: 10px 0
         .after-footer-left, .after-footer-center
             display: flex
+            @media (max-width: $breakpoint-mobile)
+                display: block
+                text-align: center
         .after-footer-text
             font-size: 12px
             margin: auto 15px  

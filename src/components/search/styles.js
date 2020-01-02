@@ -63,11 +63,17 @@ export const Input = styled.input`
   &::placeholder {
     color: #BDBDBD;
   }
+  @media (max-width: 420px){
+    width: 100%;
+  }
 `
 export const Form = styled.form`
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  @media (max-width: 420px){
+   margin: auto;
+  }
 `
 export const HitsWrapper = styled.div`
   display: ${props => (props.show ? `grid` : `none`)};

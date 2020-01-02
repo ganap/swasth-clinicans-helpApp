@@ -158,6 +158,8 @@ $menu-label-color: $white-ter
   padding: 15px 5px;
   > .container
     max-width: 1116px;
+  .navbar-burger
+    color: #fff 
   .navbar-item
     color: #fff;
     font-size: $normal-font;
@@ -172,6 +174,20 @@ $menu-label-color: $white-ter
   img
     height: 35px;
     width: auto;
+  @media (max-width: $breakpoint-mobile)
+    padding: 0
+    .navbar-item
+      margin: auto 0;
+      color: $main-color;
+    .navbox-action-item
+      display: block;
+      margin: auto;
+      text-align: center
+      .bt-action-btn
+        box-shadow: none
+        margin: auto
+    .navbar-menu.is-active
+      box-shadow: 1px 1px 7px 2px #eee !important
 
 .colored-header
   background-color: #667eea;  
