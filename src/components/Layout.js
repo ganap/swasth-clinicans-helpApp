@@ -46,7 +46,7 @@ const TemplateWrapper = ({ children, transparent }) => {
         <meta property="og:image" content={`${withPrefix("/")}img/og-image.png`} />
       </Helmet>
       <Navbar transparent={transparent}/>
-      <div>{children}</div>
+      <div className={!transparent ? "transparent-navbar-children" : ''}>{children}</div>
       <Footer />
     </div>
   )

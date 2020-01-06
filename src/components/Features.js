@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import { routes } from './constants';
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline feature-grid">
+  <div className="columns is-multiline feature-grid ">
     {gridItems.map(item => (
       <div key={item.title} className="column is-4">
         <section className="section feature-grid-item" style={{ padding: "5px" }}>

@@ -5,6 +5,7 @@
             padding: 5px
     .home-back
         width: 100%
+        height: auto
         .home-back-img
             width: 100%
             transform: translate3d(50px, -15px, -1px)
@@ -22,10 +23,14 @@
               padding: 0.25em
               text-align: center
               font-size: 2.5em 
+        @media (max-width: $breakpoint-desktop)
+            width: 150%
+            transform: translate3d(-16%, 0, -1px)
         @media (max-width: $breakpoint-mobile)
             display: inherit
             width: 300%
             position: relative
+            transform: translate3d(1% , -16%, -1px)
             .home-back-img
                 width: 100%
                 transform: translate3d(-22%, 0, -1px)
@@ -40,6 +45,13 @@
         margin-top: 30px;
         .column
             padding: 0.75rem 1rem
+            @media (max-width: $breakpoint-tablet)
+                .feature-grid-item
+                    margin: 1.2em 0
+                    .feature-grid-img-box
+                        .feature-grid-img
+                            width: 30%;
+                            margin: auto
             @media (max-width: $breakpoint-mobile)
                 margin: 1em 0
                 .feature-grid-item
@@ -122,7 +134,7 @@
 
 .footer-wrapper
     height: 470px
-    @media (max-width: $breakpoint-mobile)
+    @media (max-width: $breakpoint-tablet)
         height: auto
 
 .has-swasth-background
@@ -133,7 +145,7 @@
   width: 105%
   margin-left: -20px;
   margin-top: 40px
-  @media (max-width: $breakpoint-mobile)
+  @media (max-width: $breakpoint-tablet)
     margin-left: -30px;
     margin-top: 50px
     width: 115%
@@ -148,7 +160,7 @@
         padding: 60px 20px;
   .footer-logo
     width: 163px
-    @media (max-width: $breakpoint-mobile)
+    @media (max-width: $breakpoint-tablet)
         display: none
     img
       width: 100%
@@ -159,7 +171,7 @@
     font-size: 16px !important
   .menu-list
     margin-left: 2px
-    @media (max-width: $breakpoint-mobile)
+    @media (max-width: $breakpoint-tablet)
         text-align: center
     .navbar-item
       color: rgba(80,88,191,0.57)
@@ -172,14 +184,14 @@
     .after-footer
         display: flex
         justify-content: space-between
-        @media (max-width: $breakpoint-mobile)
+        @media (max-width: $breakpoint-tablet)
             display: block
             text-align: center
             margin: auto
             padding: 10px 0
         .after-footer-left, .after-footer-center
             display: flex
-            @media (max-width: $breakpoint-mobile)
+            @media (max-width: $breakpoint-tablet)
                 display: block
                 text-align: center
         .after-footer-text
@@ -198,6 +210,22 @@
 // small header for child pages
 .header-back
     width: 105%
-    transform: translate3d(-10px, -95px, -1px)   
+    height: auto
     .header-back-img     
-        width: 100%      
+        width: 100% 
+    @media (max-width: $breakpoint-desktop)
+        width: 200%
+    @media (max-width: $breakpoint-mobile)
+        display: inherit
+        width: 460%
+        position: relative
+        .home-back-img
+            width: 100%
+            transform: translate3d(-22%, 0, -1px)
+
+@media (max-width: $breakpoint-desktop)
+    .transparent-navbar-children
+       transform: translate3d(-10px, -95px, -1px)  
+@media (max-width: $breakpoint-mobile)
+    .transparent-navbar-children
+       transform: translate3d(-10px, -95px, -1px)      

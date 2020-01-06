@@ -63,7 +63,10 @@ export const Input = styled.input`
   &::placeholder {
     color: #BDBDBD;
   }
-  @media (max-width: 420px){
+  @media (max-width: 768px){
+    width: 35em;
+  }
+  @media (max-width: 426px){
     width: 100%;
   }
 `
@@ -71,7 +74,7 @@ export const Form = styled.form`
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  @media (max-width: 420px){
+  @media (max-width: 426px){
    margin: auto;
   }
 `
