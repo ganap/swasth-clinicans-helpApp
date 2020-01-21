@@ -35,8 +35,8 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         custom: {
-          families: ["Samplinoff"],
-          urls: ["/fonts/fonts.css"],
+          families: ["Airbnb Cereal App Book"],
+          urls: ["/fonts/airbnb-cereal-app/style.css"],
         },
       },
     },

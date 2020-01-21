@@ -16,15 +16,18 @@ $black: #2b2523
 
 
 body
-  font-family: "Samplinoff" !important;
-  max-width: 1920px;
-  overflow: hidden;
-  margin: auto !important;
-  position: relative;
+  font-family: "Airbnb Cereal App Book", sans-serif !important
+  max-width: 1920px
+  overflow: hidden
+  margin: auto !important
+  letter-spacing: 0.5px
+  font-weight: 400
+  line-height: 25px
+  position: relative
 
 .navbar .navbar-menu
   box-shadow:none !important
-  font-family: "Samplinoff";
+  font-family: "Airbnb Cereal App Book", sans-serif;
 
 .content .taglist
   list-style: none
@@ -155,19 +158,21 @@ $menu-label-color: $white-ter
   position: absolute;
   width: 100%;
   background-color: transparent;
-  padding: 15px 5px;
+  padding: 10px 5px;
   > .container
     max-width: 1116px;
   .navbar-burger
     color: #fff 
   .navbar-item
-    color: #fff;
-    font-size: $normal-font;
-    padding: 0.5rem 1.3rem;
-    height: 40px;
-    margin: auto;
-    &:hover, &:focus, &:focus-within
-      color: #fff;
+    background-color: transparent !important
+    line-height: 22px
+    padding: 20px 15px
+    color: #fff !important
+    font-weight: bold
+    font-size: 16px
+    letter-spacing: 1px
+    font-family: "Airbnb Cereal App Book"
+    height: 21px
   .navbox-action-item
     margin-left: 50px;
     display: flex;
@@ -198,13 +203,13 @@ $menu-label-color: $white-ter
 
 //note component
 .custom-alert-text
-  padding: 15px;
-  background: rgba(117,125,232,0.1);
-  border: solid 1px #4E67C1;
-  border-radius: 3px;
-  margin: 10px 0;
+  padding: 15px
+  background: rgba(117,125,232,0.1)
+  border: solid 1px #4E67C1
+  border-radius: 3px
+  margin: 10px 0
   color: #4E67C1
-  font-size: 14px
+  font-size: 16px
   b
     margin-right: 5px;
 
@@ -240,3 +245,4 @@ $menu-label-color: $white-ter
 @import "styles/global"
 @import "styles/home"
 @import "styles/feature"
+@import "../../static/fonts/airbnb-cereal-app/style.css"

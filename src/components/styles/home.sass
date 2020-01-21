@@ -1,3 +1,12 @@
+.navbar
+  .header-logo
+    height: 40px
+    max-height: fit-content
+    width: auto !important
+
+
+
+
 .home-top
     color: #000
     @media (max-width: $breakpoint-mobile)
@@ -22,7 +31,7 @@
               line-height: 1
               padding: 0.25em
               text-align: center
-              font-size: 2.5em 
+              font-size: 2.5em
         @media (max-width: $breakpoint-desktop)
             width: 150%
             transform: translate3d(-16%, 0, -1px)
@@ -65,15 +74,15 @@
             border-radius: 10px;
             .feature-grid-img-box
                 width: 100%
-                transform: translateY(-40%)
+                //transform: translateY(-40%)
                 .feature-grid-img
                     width: 60%;
                     margin: auto
             .feature-grid-content-box
-                transform: translateY(-2.5em)
+                //transform: translateY(-2.5em)
                 text-align: center
                 width: 80%
-                margin: 1em auto 0 auto
+                margin: 1em auto 1em auto
                 .feature-link-text
                   font-size: 18px;
                   color: #757DE8;
@@ -81,10 +90,10 @@
                     color: #ad83f0;
                 .feature-content-text
                     margin: 10px 0 0 0
-                    font-size: 14px
+                    font-size: 16px
                     color: #4F4F4F
-                    height: 50px;
-    
+                    //height: 50px;
+
     .category-grid
         margin-top: 30px;
         .column
@@ -98,10 +107,14 @@
                 position: relative;
                 .category-grid-img-box
                     position: absolute
-                    width: 145px;
-                    height: 150px;
-                    bottom: -25px;
-                    right: -30px;
+                    //width: 145px;
+                    //height: 150px;
+                    //bottom: -25px;
+                    //right: -30px;
+                    width: 160px;
+                    height: 160px;
+                    bottom: -10px;
+                    right: -48px;
                     background: rgba(242, 242, 242, 0.4);
                     border-radius: 50%
                     display: flex
@@ -109,7 +122,7 @@
                         width: 55px
                         height: 55px
                         margin: auto !important
-                        
+
                 .category-grid-content-box
                     height: 135px
                     display: flex
@@ -175,7 +188,7 @@
         text-align: center
     .navbar-item
       color: rgba(80,88,191,0.57)
-      font-size: 14px !important
+      font-size: 16px !important
 .after-footer-container
     width: 100%
     background: rgb(233, 235, 252)
@@ -196,8 +209,8 @@
                 text-align: center
         .after-footer-text
             font-size: 12px
-            margin: auto 15px  
-            color: #989DDA  
+            margin: auto 15px
+            color: #989DDA
             &.copyright
              color: rgba(0,0,0,0.2)
              font-size: 12px
@@ -211,8 +224,8 @@
 .header-back
     width: 105%
     height: auto
-    .header-back-img     
-        width: 100% 
+    .header-back-img
+        width: 100%
     @media (max-width: $breakpoint-desktop)
         width: 200%
     @media (max-width: $breakpoint-mobile)
@@ -225,7 +238,7 @@
 
 @media (max-width: $breakpoint-desktop)
     .transparent-navbar-children
-       transform: translate3d(-10px, -95px, -1px)  
+       transform: translate3d(-10px, -95px, -1px)
 @media (max-width: $breakpoint-mobile)
     .transparent-navbar-children
-       transform: translate3d(-10px, -95px, -1px)      
+       transform: translate3d(-10px, -95px, -1px)

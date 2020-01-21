@@ -46,7 +46,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <img src={logo} className='header-logo' href='https://clinician.swasth.co/' alt="Kaldi" style={{ width: '88px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -64,23 +64,21 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item transparent-btn" to="/">
-                About
-              </Link>
-              <Link className="navbar-item transparent-btn" to="/">
+              <a className="navbar-item transparent-btn" href='https://clinician.swasth.co/'>
+                About Us
+              </a>
+              <a className="navbar-item transparent-btn" href='https://clinician.swasth.co/pricing'>
                 Pricing
-              </Link>
-              <Link className="navbar-item transparent-btn" to="/">
+              </a>
+              <a className="navbar-item transparent-btn" href='/'>
                 Help
-              </Link>
-              <div className="navbox-action-item">
-              <Link className="navbar-item transparent-btn" to="/">
+              </a>
+              <a className="navbar-item transparent-btn" href='https://clinician.swasth.co/signin'>
                 Login
-              </Link>
-              <Link className="navbar-item bt-action-btn" to="/">
+              </a>
+              <a className="navbar-item transparent-btn" href='https://clinician.swasth.co/signup'>
                 Signup
-              </Link>
-              </div>
+              </a>
             </div>
             </div>
         </div>
