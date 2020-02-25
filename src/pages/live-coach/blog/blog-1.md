@@ -1,6 +1,6 @@
 ---
 templateKey: feature-page
-title: Blog 1
+title: 'Less Science, More Purpose'
 date: 2020-02-25T16:52:35.764Z
 author: ' LUCY HENDRICKS LEAVE A COMMENT'
 featuredImage: /img/TC_2-29-1600x600.webp
