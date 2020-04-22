@@ -64,7 +64,7 @@ export const TopicsTemplate = ({
                 <ul className="topic-link-container">
               {
                recentTopics ? recentTopics.map(({slug, title}) => (
-                <li><Link to={`${routes.topics}/${slug}`} className="topic-grid-link">{title}</Link></li>
+                <li><Link to={slug} className="topic-grid-link">{title}</Link></li>
                )) : ''
               }
               </ul>
