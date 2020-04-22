@@ -8,7 +8,7 @@ recentTopics: []
 
 Homework can be assigned to an individual client or a group. To assign homework, expand the homework menu on the left menu and click on ‘Schedule’. Then select an app and choose a type or category (Exercise, Lesson etc) which should bring a list of items for the corresponding type. Select one or more items, which should add them to a list on the right. Choose another type and do the same. You can also search for items by clicking the search icon against next to Module or Title.
 
-![](/img/assign-homework.jpg)
+![]()
 
 ## View Clients' Homework
 
@@ -16,7 +16,7 @@ Once you have selected all items that you want to assign to this homework, click
 
 Now if you navigate to the ‘List” Submenu on the left nav, you can see the homework under the corresponding app.
 
-![](/img/view_homework.png)
+![](/img/client-billing-and-service_settings.png)
 
 - - -
 
@@ -36,6 +36,6 @@ To create a group, click on Groups on the left navigation and click the “**Add
 
 If the Group has been assigned a Homework then it will be displayed in the Homework Tab. Switch to the Homework tab to see if the group has a homework assigned by the Clinician.
 
-![](/img/group_homework.png)
+![]()
 
 Teasc
