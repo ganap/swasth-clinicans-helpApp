@@ -6,9 +6,10 @@ topics: []
 recentTopics:
   - slug: topics/invite-clients-to-share-data
     title: Invite clients to share their app data
-liveDemo: 'https://youtu.be/sg32fFAFvYw'
+liveDemo: >-
+  https://drive.google.com/file/d/1p2SciEjUt8THSCHYYbP6KF96ynXiuAdG/view?usp=sharing
 ---
-## Sign up -Test
+## Sign up
 
 The first step of provider on-boarding is signup.
 
