@@ -16,7 +16,7 @@ Once you have selected all items that you want to assign to this homework, click
 
 Now if you navigate to the ‘List” Submenu on the left nav, you can see the homework under the corresponding app.
 
-![](/img/flavor_wheel.jpg)
+![](/img/account_setting.png)
 
 - - -
 
