@@ -5,7 +5,11 @@ date: 2019-09-06T21:58:38.260Z
 ---
 ## Invite clients
 
-Navigate to the DBT Daily App, on the left navigation bar (under apps). Then click on the "Invite Clients" button. Then from the list of clients in the dropdown box select the client to invite and click "Send".
+Navigate to the DBT Coach App, on the left navigation bar (under apps). Then click on the "Invite Clients" button. Then from the list of clients in the dropdown box select the client to invite and click "Send".
+
+![](/img/dropdown1.png)
+
+
 
 
 
@@ -22,8 +26,6 @@ Once the client has set their sharing settings, you can login to the clinician a
 After selecting the client then, select the time period for which we want to see the user data.
 
 ![](/img/time_selection.png)
-
-
 
 After time selection, from various tab below select any one to see the entry of that user for the in between time selected.
 
