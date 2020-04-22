@@ -8,7 +8,7 @@ recentTopics:
     title: Invite clients to share their app data
 liveDemo: ''
 ---
-## Sign up
+## Sign up - Test
 
 The first step of provider on-boarding is signup.
 
@@ -17,8 +17,6 @@ The first step of provider on-boarding is signup.
 The reason you need to use a different email address is because the clinician app uses Two-Factor Authentication. We need to do for security and privacy of users' data.
 
 ![](/img/03_00_sign_up_filled.png)
-
-
 
 ## Account Confirmation
 
