@@ -8,7 +8,7 @@ recentTopics:
     title: Invite clients to share their app data
 liveDemo: ''
 ---
-## Sign up - Test
+## Sign up
 
 The first step of provider on-boarding is signup.
 
