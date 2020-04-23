@@ -1,6 +1,6 @@
 ---
 templateKey: topic-page
-title: 'Scheduling, editing, and deleting appointments'
+title: Scheduling Appointment
 date: 2019-11-25T23:34:29.462Z
 ---
 You will find detailed information about managing appointments in Swasth Web App. You can learn about:
