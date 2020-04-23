@@ -6,9 +6,7 @@ topics:
   - heading: Homework
     topic:
       - slug: topics/assign-homework
-        title: Assign homework
-      - slug: topics/view-client-homework
-        title: View clients' homework
+        title: Assign and View homework
   - heading: Entries
     topic:
       - slug: topics/view-client-entries
