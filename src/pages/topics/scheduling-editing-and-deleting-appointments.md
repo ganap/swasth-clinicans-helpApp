@@ -3,13 +3,13 @@ templateKey: topic-page
 title: Scheduling Appointments
 date: 2019-11-25T23:34:29.462Z
 ---
-You will find detailed information about managing appointments in Swasth Web App. You can learn about:
+You will find detailed information about managing appointments in the Clinician Portal. You can learn about:
 
-•	Scheduling a new appointment
+* Scheduling a new appointment
+* Editing or  an existing appointment
+* Cancel Appointment
 
-•	Editing or deleting an existing appointment
-
-Scheduling a new appointment
+## Scheduling a new appointment
 
 **Here's how to add a new appointment:**
 
@@ -23,17 +23,25 @@ Scheduling a new appointment
 
 ![](/img/appointment1.png)
 
-To delete an appointment, select the **Cancel Appointment** and click the trash icon.
+- - -
+
+## Cancel Appointment
+
+To cancel an appointment, click **Cancel Appointment** button.
 
 ![](/img/appointment2.png)
 
-Editing or deleting an existing appointment
+- - -
+
+
+
+## Edit an existing Appointment
 
 **Here's how to edit a new appointment:**
 
 1. Click on the Appointment already added for the date you want to edit.
 2. All the information of the appointment will be displayed.
 3. Make the change that you want to in the appointment data.
-4. Click Submit. 
+4. Click Submit.
 
-****
+- - -
