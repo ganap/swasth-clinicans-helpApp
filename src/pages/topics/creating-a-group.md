@@ -13,13 +13,12 @@ recentTopics:
 You can create a group if you do group therapy or a skills training group (like for eg. DBT skills training).
 
 To create a group, click on Groups on the left navigation and click the “Add Group” button on the right. \
-- Fill out all the information and click on the save button below.
+
+* Fill out all the information and click on the save button below.
 
 ![](/img/group_list.png)
 
-
-
-## Adding  Clients to the group 
+## Adding  Clients to the group
 
 Once group is created you will see three button on the right side of the page. There will be "**Add Client**" button to add the clients in the group.
 
