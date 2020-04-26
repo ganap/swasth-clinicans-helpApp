@@ -5,7 +5,7 @@ date: 2020-04-26T12:55:33.180Z
 recentTopics:
   - slug: topics/scheduling-editing-and-deleting-appointments
     title: Add a new Appointment
-  - slug: topics/cancel
+  - slug: topics/cancelling-an-appointment
     title: Cancelling an Appointment
 ---
 ## Editing an Appointment
