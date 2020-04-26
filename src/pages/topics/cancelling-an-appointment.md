@@ -2,6 +2,11 @@
 templateKey: topic-page
 title: Cancelling an Appointment
 date: 2020-04-26T13:15:42.208Z
+recentTopics:
+  - slug: topics/scheduling-editing-and-deleting-appointments
+    title: Adding a new Appointment
+  - slug: 'topics/editing-an-appointment '
+    title: Editing an Appointment
 ---
 ## Cancelling an Appointment
 
