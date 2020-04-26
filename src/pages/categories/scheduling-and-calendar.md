@@ -7,5 +7,11 @@ topics:
     topic:
       - slug: topics/scheduling-editing-and-deleting-appointments
         title: Scheduling Appointment
+      - slug: topics/111
+        title: Weekly recurring appointment
+      - slug: topics/aaq
+        title: Editing an appointment
+      - slug: topics/qwe
+        title: Cancelling an appointment
 ---
 
