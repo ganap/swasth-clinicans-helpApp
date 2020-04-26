@@ -6,10 +6,18 @@ topics:
   - heading: Homework
     topic:
       - slug: topics/assign-homework
-        title: Assign and View homework
+        title: Assign Homework
+      - slug: topics/view-homework
+        title: View Homework
   - heading: Entries
     topic:
       - slug: topics/view-client-entries
         title: View Clients' Entries
+  - heading: Groups
+    topic:
+      - slug: topics/xyz
+        title: Creating a Group
+      - slug: topics/abc
+        title: Group Homework
 ---
 
