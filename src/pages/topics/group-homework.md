@@ -3,8 +3,10 @@ templateKey: topic-page
 title: Group Homework
 date: 2020-04-26T08:46:31.752Z
 recentTopics:
-  - slug: topics/vcd
-    title: Assign homework to clients
+  - slug: topics/assign-homework
+    title: Assign homework to Individual client's
+  - slug: topics/creating-a-group
+    title: Creating a Group
 ---
 ## Assign home work to Group
 
@@ -13,8 +15,6 @@ To Assign homework to Group, expand the homework menu on the left menu and click
 After that click the "Assign" button on the right side. In the select type select the Group option and list of the group will be displayed. From that select a group and click Submit button.
 
 ![](/img/assign_group.png)
-
-
 
 ## View Homework
 
