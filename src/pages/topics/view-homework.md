@@ -2,7 +2,11 @@
 templateKey: topic-page
 title: View Homework
 date: 2020-04-26T07:27:47.514Z
-recentTopics: []
+recentTopics:
+  - slug: topics/group-homework
+    title: Group Homework
+  - slug: topics/assign-homework
+    title: Assign Homework to Individual Client's
 ---
 ## View Clients' Homework
 
