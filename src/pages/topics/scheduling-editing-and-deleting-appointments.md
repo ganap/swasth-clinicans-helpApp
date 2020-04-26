@@ -2,46 +2,27 @@
 templateKey: topic-page
 title: Scheduling Appointments
 date: 2019-11-25T23:34:29.462Z
+recentTopics:
+  - slug: topics/123
+    title: Editing an Appointment
+  - slug: topics/adding-a-new-client
+    title: Adding new Client's
 ---
-You will find detailed information about managing appointments in the Clinician Portal. You can learn about:
-
-* Scheduling a new appointment
-* Editing or  an existing appointment
-* Cancel Appointment
+You will find detailed information about managing appointments in the Clinician Portal. You can learn about
 
 ## Scheduling a new appointment
 
 **Here's how to add a new appointment:**
 
 1. Click on the desired date to Create Appointment. (You can also just click directly on the calendar.)
-2. From the New Appointment flyout window, select an existing client or click + New Client.
+2. From the New Appointment side window, select an existing client.
 3. Set the date, time, duration for the appointment.
-4. Setting the clinician. If you have multiple clinicians, your appointment will default to the primary clinician assigned to this client. To switch the appointment to a different clinician: click Change, then select the clinician from the dropdown list. 
-5. Confirm that the service and rate are correct. Click in appointment fee text box to make changes fee. 
-6. Set the appointment type (individual or couple).
-7. Click Submit. 
-
-![](/img/appointment1.png)
-
-- - -
-
-## Cancel Appointment
-
-To cancel an appointment, click **Cancel Appointment** button.
-
-![](/img/appointment2.png)
-
-- - -
+4. Setting the clinician. If you have multiple clinicians, then the drop down will have the name of all the clinicians you are assigned with 
+5. Select the visit type from the drop down.
+6. Confirm that the service and rate are correct. 
+7. Set the appointment type (individual or couple).
+8. Click Submit. 
 
 
 
-## Edit an existing Appointment
-
-**Here's how to edit a new appointment:**
-
-1. Click on the Appointment already added for the date you want to edit.
-2. All the information of the appointment will be displayed.
-3. Make the change that you want to in the appointment data.
-4. Click Submit.
-
-- - -
+![](/img/new_appointment.jpg)
