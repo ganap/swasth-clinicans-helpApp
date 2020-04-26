@@ -3,9 +3,9 @@ templateKey: topic-page
 title: Creating a Group
 date: 2020-04-26T08:08:02.865Z
 recentTopics:
-  - slug: topics/abs
+  - slug: topics/group-homework
     title: Groups Homework
-  - slug: topics/jkh
+  - slug: topics/adding-a-new-client
     title: Add Clients to Portal
 ---
 ## How to Create Groups
