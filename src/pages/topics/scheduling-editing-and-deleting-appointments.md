@@ -3,7 +3,7 @@ templateKey: topic-page
 title: Scheduling Appointments
 date: 2019-11-25T23:34:29.462Z
 recentTopics:
-  - slug: topics/123
+  - slug: 'topics/editing-an-appointment '
     title: Editing an Appointment
   - slug: topics/adding-a-new-client
     title: Adding new Client's
@@ -22,7 +22,5 @@ You will find detailed information about managing appointments in the Clinician 
 6. Confirm that the service and rate are correct. 
 7. Set the appointment type (individual or couple).
 8. Click Submit. 
-
-
 
 ![](/img/new_appointment.jpg)
