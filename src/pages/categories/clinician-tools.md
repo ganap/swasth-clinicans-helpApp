@@ -17,7 +17,7 @@ topics:
     topic:
       - slug: topics/creating-a-group
         title: Creating a Group
-      - slug: topics/abc
+      - slug: topics/group-homework
         title: Group Homework
 ---
 
