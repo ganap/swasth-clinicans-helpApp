@@ -5,7 +5,7 @@ date: 2019-09-07T00:58:09.200Z
 recentTopics:
   - slug: topics/view-homework
     title: View Homework
-  - slug: topics/abc
+  - slug: topics/group-homework
     title: Group Homework
 ---
 ## Assign Homework
