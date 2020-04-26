@@ -25,3 +25,5 @@ You can create a recurring appointment series that repeats every week on the par
 9. Click Submit. 
 
 ![](/img/weelky_appointments.png)
+
+Note : Once appointment is created it will be displayed in the calendar with the time at which appointment is scheduled for along with the client's name.
