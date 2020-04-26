@@ -9,15 +9,13 @@ Navigate to the DBT Coach App, on the left navigation bar (under apps). Then cli
 
 ![](/img/dropdown1.png)
 
-
-
-
-
 ## Client sharing settings
 
 Your client/s will receive an email with a confirmation code and provider email address. On their DBT Daily App, they will navigate to "Sharing Settings" screen using the left navigation bar (Settings > Sharing Settings). They will need to then click the '+' button and in the next screen enter the confirmation code and email address that they received in the email and click 'Submit' button. On the next screen they will check one more more diary card items that they want to share with you and click "Save".
 
+![](/img/new-project.png)
 
+![](/img/new-project-1-.png)
 
 ## View client data
 
