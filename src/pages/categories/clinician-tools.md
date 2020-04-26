@@ -15,7 +15,7 @@ topics:
         title: View Clients' Entries
   - heading: Groups
     topic:
-      - slug: topics/xyz
+      - slug: topics/creating-a-group
         title: Creating a Group
       - slug: topics/abc
         title: Group Homework
