@@ -3,7 +3,7 @@ templateKey: category-page
 title: Scheduling and Calendar
 date: 2019-09-07T00:33:39.796Z
 topics:
-  - heading: Scheduling Appointment
+  - heading: Appointments and Scheduling
     topic:
       - slug: topics/scheduling-editing-and-deleting-appointments
         title: Scheduling Appointment
