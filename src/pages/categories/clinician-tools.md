@@ -19,5 +19,9 @@ topics:
         title: Creating a Group
       - slug: topics/group-homework
         title: Group Homework
+  - heading: Assessments
+    topic:
+      - slug: topics/assessments
+        title: Adding an Assessments
 ---
 
