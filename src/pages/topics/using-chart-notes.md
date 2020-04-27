@@ -5,7 +5,7 @@ date: 2020-04-27T13:19:17.200Z
 ---
 Chart notes allows you to add any information related to the client. You can add an appointment points, comments about the client, medical status of the client, Medication History etc.
 
-The chart notes are present in the Client >> Notes & Billing tab at the top.
+The chart notes are present in the Client >> Notes & Billing >> Notes after the Admin note.
 
 To add a Chart note:
 
