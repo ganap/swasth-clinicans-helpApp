@@ -13,9 +13,7 @@ If you want to delete a client you have to select a client and in the Info you c
 ## Deleting a Client
 
 1. Navigate to Clients.
-
 2. Select the client and then scroll down in the Info tab.
-
 3. Click Remove Client button.
 
 ![](/img/remove_client.png)
