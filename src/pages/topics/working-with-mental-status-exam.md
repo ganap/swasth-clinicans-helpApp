@@ -7,7 +7,7 @@ date: 2020-04-28T09:20:14.730Z
 
 You can add a Mental status exam on your client's profile anytime. To create a new, follow the steps below:
 
-1. Navigate to the client's Overview page 
+1. Click on Clients link on the navigation bar.
 2. In Notes > Click Add Note > Mental Status Exam
 
 ![](/img/mse_1.png)
@@ -20,7 +20,7 @@ You can add a Mental status exam on your client's profile anytime. To create a n
 ## Deleting a Mental Status Exam
 
 1. Navigate to Notes & Billing in Client's Profile.
-2. Click on the delete Mental Status Exam option on the left side
+2. Click on the delete Mental Status Exam option on the left navigation bar.
 
 ![](/img/mse_2.png)
 
