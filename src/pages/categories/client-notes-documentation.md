@@ -19,5 +19,15 @@ topics:
         title: Working with Diagnosis & Treatment Plan
       - slug: topics/slug
         title: Working with Mental Status Exam
+  - heading: Clients and Contacts
+    topic:
+      - slug: topics/making-a-client-inactive-active
+        title: Making client inactive/active
+      - slug: topics/removing-a-client
+        title: Removing a client
+      - slug: topics/nickname
+        title: Adding a Nickname
+      - slug: topics/slug
+        title: Filtering your clients notes
 ---
 
