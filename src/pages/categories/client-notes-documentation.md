@@ -27,7 +27,7 @@ topics:
         title: Removing a client
       - slug: topics/nickname
         title: Adding a Nickname
-      - slug: topics/slug
-        title: Filtering your clients notes
+      - slug: topics/filtering-client-notes
+        title: Filtering your clients' notes
 ---
 
