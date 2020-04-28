@@ -16,8 +16,8 @@ topics:
   - heading: Diagnosis & Treatment Plans
     topic:
       - slug: topics/slug
-        title: Working Diagnosis & Treatment Plan
+        title: Working with Diagnosis & Treatment Plan
       - slug: topics/slug
-        title: Working Mental Status Exam
+        title: Working with Mental Status Exam
 ---
 
