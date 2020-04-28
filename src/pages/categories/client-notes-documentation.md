@@ -13,5 +13,11 @@ topics:
         title: Saving a Discharge Summary in a client’s file
       - slug: topics/chartnotes
         title: Using chart notes
+  - heading: Diagnosis & Treatment Plans
+    topic:
+      - slug: topics/slug
+        title: Working Diagnosis & Treatment Plan
+      - slug: topics/slug
+        title: Working Mental Status Exam
 ---
 
