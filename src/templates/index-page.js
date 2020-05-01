@@ -1,14 +1,14 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
 
-import topBack from '../img/assets/top-bg.png'
-import bannerIcon from '../img/assets/Swasth-clinician-help-banner-icon.png'
+import topBack from "../img/assets/top-bg@3x.png";
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import Categories from '../components/Categories'
-import Search from "../components/search"
+import Layout from "../components/Layout";
+import Features from "../components/Features";
+import Categories from "../components/Categories";
+import Search from "../components/search";
+
 const searchIndices = [
   { name: `swasth`, title: `Pages`, hitComp: `PageHit` },
 ]
@@ -25,7 +25,7 @@ export const IndexPageTemplate = ({
   <div className="home-top">
     <div className="full-width-image margin-top-0 home-back">
       <img src={topBack} className="home-back-img"/>
-      <img src={bannerIcon} className="home-back-icon"/>
+      {/*<img src={bannerIcon} className="home-back-icon"/>*/}
       <div className="home-head-box">
           <h1 className="head-title">
             {title}
@@ -80,7 +80,7 @@ export const IndexPageTemplate = ({
         <Search indices={searchIndices} />
       </div>
     </div> */}
-    <section className="section section--gradient">
+    <section className="section section--gradient landing-page-section">
       <div className="container">
         <div className="section">
           <div className="columns">

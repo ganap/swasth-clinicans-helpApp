@@ -7,7 +7,7 @@ export const Root = styled.div`
   display: grid;
   grid-gap: 1em;
   justify-content: center;
-  margin: 65px auto 0 auto;
+  margin: 30px auto 0 auto;
   .search-box{
     width: max-content;
     position: relative;
