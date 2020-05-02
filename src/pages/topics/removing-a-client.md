@@ -12,8 +12,11 @@ If you want to delete a client you have to select a client and in the Info you c
 
 ## Deleting a Client
 
-1. Navigate to Clients.
-2. Select the client and then scroll down in the Info tab.
-3. Click Remove Client button.
+1. Select the client by clicking on Switch client button.
+2. Scroll to the bottom of the screen, there will be **Remove** client button.
 
 ![](/img/remove_client.png)
+
+
+
+<div class="custom-alert-text"><b> Note:</b>Once client is removed all the details related to that client will be removed from the Clinician portal.</div>
