@@ -7,8 +7,13 @@ date: 2020-04-28T09:20:14.730Z
 
 You can add a Mental status exam on your client's profile anytime. To create a new, follow the steps below:
 
-1. Click on Clients link on the navigation bar.
-2. In Notes > Click Add Note > Mental Status Exam
+
+
+
+
+1. Select the client by clicking on Switch client button.
+2. Select the Client > Notes and Billing.
+3. In Notes > Click Add Note > Mental Status Exam
 
 ![](/img/mse_1.png)
 
