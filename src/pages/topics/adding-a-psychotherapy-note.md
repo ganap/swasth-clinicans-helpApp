@@ -14,11 +14,9 @@ recentTopics:
 ---
 **Psychotherapy notes** are not tied to the medical record of the client, and do not need to be shared with others except if your records are subpoenaed. 
 
-
-
 ## Adding a Psychotherapy note through Appointment:
 
-To add a progress note follow the steps below:
+To add a Psychotherapy note follow the steps below:
 
 1. Select the client using the Switch client button.
 2. Navigate to Appointments from the Left navigation menu.
@@ -29,15 +27,13 @@ To add a progress note follow the steps below:
 
 ![](/img/p_notes_cal_p.png)
 
-
-
 ## Adding a Psychotherapy note through Notes and Billing tab:
 
 1. Select the client using the Switch client button.
 2. Navigate to Notes and Billing tab from Clients profile.
 3. Click on Notes.
 4. Select the appointment.
-5. Click on **Add Psychotherapy note** button on the left side of the Session(If progress notes is alreay added).
+5. Click on **Add Psychotherapy note** button on the left side of the Session (If progress notes is already added).
 6. Add the Progress note in the text box.
 7. Click **Submit.**
 
