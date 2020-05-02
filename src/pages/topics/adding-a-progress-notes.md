@@ -27,8 +27,6 @@ To add a progress note follow the steps below:
 
 ![](/img/notes_2.png)
 
-
-
 ## Adding a Progress note through Notes and Billing tab:
 
 1. Select the client using the Switch client button.
