@@ -23,6 +23,8 @@ topics:
         title: Working with Diagnosis & Treatment Plan
       - slug: topics/working-with-mental-status-exam
         title: Working with Mental Status Exam
+      - slug: topics/creating-a-treatment-plan
+        title: Creating a treatment plan
   - heading: Clients and Contacts
     topic:
       - slug: topics/making-a-client-inactive-active
