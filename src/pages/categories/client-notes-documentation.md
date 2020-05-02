@@ -13,6 +13,10 @@ topics:
         title: Saving a Discharge Summary in a client’s file
       - slug: topics/chartnotes
         title: Using chart notes
+      - slug: topics/adding-a-progress-notes
+        title: Adding a Progress notes
+      - slug: topics/adding-a-psychotherapy-note
+        title: Adding a Psychotherapy Note
   - heading: Diagnosis & Treatment Plans
     topic:
       - slug: topics/slug
