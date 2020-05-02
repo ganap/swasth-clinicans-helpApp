@@ -5,13 +5,13 @@ date: 2019-09-07T02:31:01.124Z
 topics:
   - heading: Working with Notes
     topic:
-      - slug: topics/123
+      - slug: topics/adding-notes-to-an-appointment
         title: Adding notes to an appointment
-      - slug: topics/123
+      - slug: topics/using-administrative-notes
         title: Using administrative notes
       - slug: topics/123
         title: Saving a Discharge Summary in a client’s file
-      - slug: topics/chartnotes
+      - slug: topics/using-chart-notes
         title: Using chart notes
       - slug: topics/adding-a-progress-notes
         title: Adding a Progress notes
@@ -19,9 +19,9 @@ topics:
         title: Adding a Psychotherapy Note
   - heading: Diagnosis & Treatment Plans
     topic:
-      - slug: topics/slug
+      - slug: topics/working-with-diagnosis-treatment-plan
         title: Working with Diagnosis & Treatment Plan
-      - slug: topics/slug
+      - slug: topics/working-with-mental-status-exam
         title: Working with Mental Status Exam
   - heading: Clients and Contacts
     topic:
