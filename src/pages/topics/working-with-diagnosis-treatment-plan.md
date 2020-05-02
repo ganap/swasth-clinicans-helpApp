@@ -3,11 +3,11 @@ templateKey: topic-page
 title: Working with Diagnosis & Treatment Plan
 date: 2020-04-28T07:48:03.318Z
 ---
-Creating a Diagnosis & Treatment Plan in Swasth  is quite simple. Below are the steps to create, edit, print and delete 
+Creating a Diagnosis & Treatment Plan in Clinician portal is quite simple. Below are the steps to create, edit, print and delete 
 
 ## Creating Diagnosis & Treatment Plan
 
-1. Navigate to the client's profile page.
+1. Select the client by clicking on Switch client button.
 2. Select the Notes & Billing tab.
 3. In the Notes section below the Chart note.
 4. Click on the Add Note button on the right side.
