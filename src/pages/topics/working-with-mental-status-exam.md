@@ -2,6 +2,19 @@
 templateKey: topic-page
 title: Working with Mental Status Exam
 date: 2020-04-28T09:20:14.730Z
+recentTopics:
+  - slug: topics/working-with-diagnosis-treatment-plan
+    title: Working with Diagnosis & Treatment Plan
+  - slug: topics/using-administrative-notes
+    title: Using administrative notes
+  - slug: topics/using-chart-notes
+    title: Using chart notes
+  - slug: adding-notes-to-an-appointment
+    title: Adding notes to an appointment
+  - slug: 'topics/adding-a-progress-notes '
+    title: Adding a Progress notes
+  - slug: topics/adding-a-psychotherapy-note
+    title: Adding a Psychotherapy Note
 ---
 ## Creating Mental Status Exam
 
