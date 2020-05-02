@@ -2,6 +2,13 @@
 templateKey: topic-page
 title: Making a client Active or Inactive
 date: 2020-04-28T10:51:33.594Z
+recentTopics:
+  - slug: topics/abc
+    title: How do I use Authorization Tracking?
+  - slug: topics/abc
+    title: Adding a Progress note.
+  - slug: topics/abc
+    title: 'Adding a Psychotherapy Note '
 ---
 The Clinician Platform allows you to inactivate clients that you are not actively seeing. Making a client inactive will allow you to keep the client data in your account in case you choose to reactivate the client in the future. Additionally, inactive clients will not show up in your client list.
 
