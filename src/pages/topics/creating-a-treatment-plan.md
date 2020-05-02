@@ -34,8 +34,6 @@ There will three types of treatment plan Basic, Advance and Wiley Treatment.
 
 ![](/img/basic_tp.png)
 
-
-
 ## In Advance treatment plan:
 
 First enter the **Diagnosis,** in which clinician will have to represent the problem.
@@ -48,7 +46,8 @@ Then, click the **Continue to Objective** button. In the Objective section, you 
 
 Next, click the **Continue to Interventions** button. In this section, you will need to select at least one intervention for each of the goals you selected to be able to move to the next section.
 
-Then, click the **Continue to Overview** button. In the Overview section, you will want to check to make sure that the treatment plan accurately reflects what you need. Here, you may also enter the Treatment Frequency as well as the Date and Time Assigned to Diagnosis & Treatment Plan.
+Then, click the **Continue to Overview** button.
+ In the Overview section, you will want to check to make sure that the treatment plan accurately reflects what you need. Here, you may also enter the Treatment Frequency as well as the Date and Time Assigned to Diagnosis & Treatment Plan.
 
 Click the Save button.
 
