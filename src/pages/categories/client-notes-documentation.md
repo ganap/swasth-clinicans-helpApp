@@ -32,6 +32,6 @@ topics:
       - slug: topics/nickname
         title: Adding a Nickname
       - slug: topics/filtering-client-notes
-        title: Filtering your clients' notes
+        title: Filtering your client's notes
 ---
 
