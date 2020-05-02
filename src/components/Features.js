@@ -14,8 +14,8 @@ const FeatureGrid = ({ gridItems }) => (
                 <PreviewCompatibleImage imageInfo={item} className="feature-grid-img"/>
               </div>
               <div className="feature-grid-content-box">
-                <Link to={`${routes.features}/${item.slug}`}  className="feature-link-text">{item.title}</Link>
-                <p className="feature-content-text">Lorem ipsum dolor site amet text used as a dummy</p>
+                <Link to={`${routes.features}/${item.slug}`}  className="feature-link-text base-text">{item.title}</Link>
+                <p className="feature-content-text para-text">Lorem ipsum dolor site amet text used as a dummy</p>
               </div>
           </div>
         </section>

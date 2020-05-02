@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 
-import topBack from "../img/assets/top-bg@3x.png";
+import topBack from "../../static/img/top-bg@3x.png";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
@@ -23,11 +23,11 @@ export const IndexPageTemplate = ({
   categories
 }) => (
   <div className="home-top">
-    <div className="full-width-image margin-top-0 home-back">
-      <img src={topBack} className="home-back-img"/>
+    <div className="full-width-image margin-top-0 home-back" style={{backgroundImage:`url(${topBack})`,height:'calc(100vh - 375px)'}}>
+      {/*<img src={topBack} className="home-back-img"/>*/}
       {/*<img src={bannerIcon} className="home-back-icon"/>*/}
       <div className="home-head-box">
-          <h1 className="head-title">
+          <h1 className="head-title para-text">
             {title}
           </h1>
           <Search indices={searchIndices} />
@@ -100,7 +100,7 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div> */}
-                 <section className="section">
+                 <section className="section second-section">
                   {/* <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
                     {categories.heading}
                   </h3> */}

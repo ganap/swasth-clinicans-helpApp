@@ -11,7 +11,7 @@ const CategoriesGrid = ({ gridItems }) => (
         <section className="section category-grid-item" style={{ padding: "5px" }}>
           <div className="has-text-centered category-grid-box">
               <div className="category-grid-content-box">
-              <Link to={`${routes.categories}/${item.slug}`} className="category-link-text category-grid-content">{item.title}</Link>
+              <Link to={`${routes.categories}/${item.slug}`} className="category-link-text base-text category-grid-content">{item.title}</Link>
               </div>
               <div className="category-grid-img-box">
               <PreviewCompatibleImage imageInfo={item}  className="category-grid-img"/>

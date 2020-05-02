@@ -46,3 +46,24 @@ font-style: normal;
 font-weight: normal;
 src: local('Airbnb Cereal App Black'), url('AirbnbCerealBlack.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Apercu Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Regular'), url('ApercuRegular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Apercu Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Light'), url('ApercuLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Apercu Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apercu Bold'), url('ApercuBold.otf') format('opentype');
+}

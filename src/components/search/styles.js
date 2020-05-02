@@ -66,8 +66,8 @@ export const Input = styled.input`
   @media (max-width: 768px){
     width: 35em;
   }
-  @media (max-width: 426px){
-    width: 100%;
+  @media (max-width: 600px){
+    width: 300px;
   }
 `
 export const Form = styled.form`
