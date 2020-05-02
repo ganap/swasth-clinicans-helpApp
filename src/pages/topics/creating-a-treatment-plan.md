@@ -49,6 +49,6 @@ Next, click the **Continue to Interventions** button. In this section, you will 
 Then, click the **Continue to Overview** button.
  In the Overview section, you will want to check to make sure that the treatment plan accurately reflects what you need. Here, you may also enter the Treatment Frequency as well as the Date and Time Assigned to Diagnosis & Treatment Plan.
 
-Click the Save button.
+Click the **Save** button.
 
 ![](/img/bascicadnace_tp.png)
