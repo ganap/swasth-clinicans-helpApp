@@ -62,3 +62,7 @@ Once Saved the Diagnosis & Treatment Plan will be displayed in the list.
 3. Click on the Delete icon to delete the Diagnosis & Treatment plan
 
 ![](/img/dt_3.png)
+
+
+
+<div class="custom-alert-text"><b> Note:</b>If Clinician dose not add a Treatment plan at the time of creating diagnosis report then the button to add treatment plan will be displayed. </div>
