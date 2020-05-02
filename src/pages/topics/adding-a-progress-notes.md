@@ -4,7 +4,7 @@ title: Adding a Progress notes
 date: 2020-05-02T13:51:06.587Z
 recentTopics:
   - slug: topics/adding-a-psychotherapy-note
-    title: Adding a Psychotherapy Note
+    title: Adding a Psychotherapy note
   - slug: topics/using-chart-notes
     title: Using chart notes
   - slug: topics/using-administrative-notes
@@ -26,3 +26,17 @@ To add a progress note follow the steps below:
 6. Click **Submit** button.
 
 ![](/img/notes_2.png)
+
+
+
+## Adding a Progress note through Notes and Billing tab:
+
+1. Select the client using the Switch client button.
+2. Navigate to Notes and Billing tab from Clients profile.
+3. Click on Notes.
+4. Select the appointment.
+5. Click on **Add Progress note** button on the left side of the Session.
+6. Add the Progress note in the text box.
+7. Click **Submit.**
+
+![](/img/p_notes.png)
