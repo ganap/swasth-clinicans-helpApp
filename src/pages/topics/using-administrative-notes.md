@@ -11,8 +11,10 @@ Adding an Administrative note
 
 To add an administrative note a client's profile and follow these steps:
 
-1. Go to Notes & Billing.
-2. Click on **Create admin note** button
+1. Select the client by clicking on Switch client button.
+2. Navigate to Notes and Billing.
+3. Select Notes tab.
+4. Click on **Create admin note** button
 
 ![](/img/admin_note_1.png)
 
