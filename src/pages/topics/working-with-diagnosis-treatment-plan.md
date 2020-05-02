@@ -2,6 +2,17 @@
 templateKey: topic-page
 title: Working with Diagnosis & Treatment Plan
 date: 2020-04-28T07:48:03.318Z
+recentTopics:
+  - slug: topics/using-administrative-notes
+    title: Adding an administrative note
+  - slug: topics/using-chart-notes
+    title: Using chart note
+  - slug: topics/working-with-mental-status-exam
+    title: Working with Mental Status Exam
+  - slug: topics/adding-a-progress-notes
+    title: Adding a Progress note
+  - slug: topics/adding-a-psychotherapy-note
+    title: Adding a Psychotherapy note
 ---
 Creating a Diagnosis & Treatment Plan in Clinician portal is quite simple. Below are the steps to create, edit, print and delete 
 
