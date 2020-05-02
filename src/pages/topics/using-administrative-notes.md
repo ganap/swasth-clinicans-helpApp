@@ -2,6 +2,15 @@
 templateKey: topic-page
 title: Using administrative notes
 date: 2020-04-27T10:56:30.172Z
+recentTopics:
+  - slug: topics/using-chart-notes
+    title: Using Chart Notes
+  - slug: topics/access-to-clinician-app
+    title: Getting started with Clinician portal
+  - slug: topics/working-with-diagnosis-treatment-plan
+    title: Working with Diagnosis & Treatment Plan
+  - slug: topics/working-with-mental-status-exam
+    title: 'Working with Mental Status Exam '
 ---
 ## Adding an Administrative note
 
