@@ -27,7 +27,7 @@ export const IndexPageTemplate = ({
       {/*<img src={topBack} className="home-back-img"/>*/}
       {/*<img src={bannerIcon} className="home-back-icon"/>*/}
       <div className="home-head-box">
-          <h1 className="head-title para-text">
+          <h1 className="head-title base-text">
             {title}
           </h1>
           <Search indices={searchIndices} />

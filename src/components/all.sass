@@ -264,6 +264,7 @@ $menu-label-color: $white-ter
   .box
     box-shadow: 2px 3px 12px 0px #EFEFF9
     border-radius: 0
+    height: 100%
   .title
     margin-bottom: 2rem
   .topic-grid-title
@@ -271,6 +272,11 @@ $menu-label-color: $white-ter
     padding-bottom: 15px
     font-size: 20px
     font-weight: 600 !important
+  .columns
+    .column
+      .columns
+        @media (min-width: $breakpoint-tablet)
+          flex-wrap: wrap
   li
     list-style-type: none
   li::before

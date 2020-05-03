@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
         >
           <div className="container">
             <div className="navbar-brand">
-              <a href='https://clinician.swasth.co/' className="navbar-item" title="Logo">
+              <a href='/' className="navbar-item" title="Logo">
                 <img src={logo} className='header-logo' alt="Kaldi" style={{ width: "88px" }}/>
               </a>
               {/* Hamburger menu */}
@@ -62,21 +62,7 @@ const Navbar = class extends React.Component {
             >
               <div className="navbar-end has-text-centered">
                 <a className="navbar-item transparent-btn base-text" href='https://clinician.swasth.co/'>
-                  About Us
-                </a>
-                <a className="navbar-item transparent-btn base-text" href='https://clinician.swasth.co/pricing'>
-                  Pricing
-                </a>
-                <a className="navbar-item transparent-btn base-text" href='/'>
-                  Help
-                </a>
-                <a className="navbar-item transparent-btn login-btn base-text"
-                   href='https://clinician.swasth.co/signin'>
-                  Login
-                </a>
-                <a className="navbar-item transparent-btn signup-btn base-text"
-                   href='https://clinician.swasth.co/signup'>
-                  Signup Now
+                  Clinician
                 </a>
               </div>
             </div>

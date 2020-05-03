@@ -12,7 +12,7 @@ const TopicsGrid = ({ heading, topic }) => (
     <ul>
     {
       topic ? topic.map(({title, slug}) => (
-        <Link to={slug}><li className="topic-grid-link base-text">{title}</li></Link>
+        <Link to={slug}><li className="topic-grid-link para-text">{title}</li></Link>
       )) : ''
     }
     </ul>
