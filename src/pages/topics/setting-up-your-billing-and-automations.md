@@ -3,7 +3,7 @@ templateKey: topic-page
 title: Setting up your Billing and Automations
 date: 2019-11-25T23:56:42.104Z
 ---
-The Billing and Services page is where you set the foundation for all of your billing within Swasth Web App. These settings will apply across your Swasth Web App account and by taking a few minutes to set this up properly, you can seamlessly automate your practice billing.
+The Billing and Services page is where you set the foundation for all of your billing within the Clinician App. These settings will apply across your Swasth Web App account and by taking a few minutes to set this up properly, you can seamlessly automate your practice billing.
 
 To find these settings, click **Practice Management> Billing and Services > Settings**
 
@@ -11,19 +11,13 @@ To find these settings, click **Practice Management> Billing and Services > Sett
 
 The Settings tab contains seven sections that you'll want to set up before billing clients:
 
-1.	Billing Settings
-
-2.	Billing Address
-
-3.	Invoice Settings
-
-4.	Automated Statement and Superbill Generation
-
-5.	Billing Document Delivery Delay
-
-6.	Billing Documents for New Clients
-
-7.	AutoPay
+1. Billing Settings
+2. Billing Address
+3. Invoice Settings
+4. Automated Statement and Superbill Generation
+5. Billing Document Delivery Delay
+6. Billing Documents for New Clients
+7. AutoPay
 
 Billing Settings
 
