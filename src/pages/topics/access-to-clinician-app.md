@@ -1,6 +1,6 @@
 ---
 templateKey: topic-page
-title: Access to Clinician App
+title: Access to Clinician Platform
 date: 2019-09-06T22:04:45.246Z
 topics: []
 recentTopics:
@@ -8,7 +8,7 @@ recentTopics:
     title: Invite clients to share their app data
 liveDemo: ''
 ---
-## Sign up - Test
+## Sign up
 
 The first step of provider on-boarding is signup.
 

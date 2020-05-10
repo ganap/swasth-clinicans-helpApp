@@ -6,12 +6,22 @@ topics:
   - heading: Homework
     topic:
       - slug: topics/assign-homework
-        title: Assign homework
-      - slug: topics/view-client-homework
-        title: View clients' homework
+        title: Assign Homework
+      - slug: topics/view-homework
+        title: View Homework
   - heading: Entries
     topic:
       - slug: topics/view-client-entries
         title: View Clients' Entries
+  - heading: Groups
+    topic:
+      - slug: topics/creating-a-group
+        title: Creating a Group
+      - slug: topics/group-homework
+        title: Group Homework
+  - heading: Assessments
+    topic:
+      - slug: topics/assessments
+        title: Adding an Assessments
 ---
 

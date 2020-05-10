@@ -24,7 +24,7 @@ export const TopicsTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1 content">
-              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light base-text">
                   {title}
               </h1>
             <div className="columns">

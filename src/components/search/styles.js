@@ -7,7 +7,7 @@ export const Root = styled.div`
   display: grid;
   grid-gap: 1em;
   justify-content: center;
-  margin: 65px auto 0 auto;
+  margin: 30px auto 0 auto;
   .search-box{
     width: max-content;
     position: relative;
@@ -66,8 +66,8 @@ export const Input = styled.input`
   @media (max-width: 768px){
     width: 35em;
   }
-  @media (max-width: 426px){
-    width: 100%;
+  @media (max-width: 600px){
+    width: 300px;
   }
 `
 export const Form = styled.form`

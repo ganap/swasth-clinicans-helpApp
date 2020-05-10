@@ -14,40 +14,28 @@
             padding: 5px
     .home-back
         width: 100%
-        height: auto
         .home-back-img
             width: 100%
-            transform: translate3d(50px, -15px, -1px)
+            transform: translateY(-20%)
         .home-back-icon
             position: absolute
             transform: translate3d(0, 60px, 2px)
             width: 551.32px
             Height: 455px
         .home-head-box
-            position: absolute
-            transform: translate3d(0, 100px, 2px)
             .head-title
-              color: white
               line-height: 1
               padding: 0.25em
               text-align: center
               font-size: 2.5em
-        @media (max-width: $breakpoint-desktop)
-            width: 150%
-            transform: translate3d(-16%, 0, -1px)
-        @media (max-width: $breakpoint-mobile)
-            display: inherit
-            width: 300%
             position: relative
-            transform: translate3d(1% , -16%, -1px)
             .home-back-img
                 width: 100%
-                transform: translate3d(-22%, 0, -1px)
+                transform: translate3d(-1%, 0, -1px)
             .home-back-icon
                 width: 0
                 height: 0
             .home-head-box
-                transform: translate3d(20px, -120px, 2px)
                 .head-title
                     font-size: 22px
     .feature-grid
@@ -85,6 +73,7 @@
                 margin: 1em auto 1em auto
                 .feature-link-text
                   font-size: 18px;
+                  font-weight: 600
                   color: #757DE8;
                   &:hover
                     color: #ad83f0;
@@ -165,12 +154,27 @@
     padding: 0.5rem 0rem 3rem
     .footer-content
       .container
-          padding: 10px 5px 60px 5px !important
+          padding: 40px 5px 60px 5px !important
   .footer-content
     transform: rotate(5deg)
     margin-bottom: 60px
     .container
         padding: 60px 20px;
+    @media (max-width: $breakpoint-tablet)
+      .columns
+        display: flex
+        flex: 0 0 100%
+        flex-wrap: wrap
+        padding-left: 70px
+        h1
+          text-align: left
+        .menu-list
+          li
+            text-align: left
+        .column:not(:first-child)
+          flex: 0 0 50%
+        .column:first-child
+          display: none
   .footer-logo
     width: 163px
     @media (max-width: $breakpoint-tablet)
@@ -189,6 +193,7 @@
     .navbar-item
       color: rgba(80,88,191,0.57)
       font-size: 16px !important
+      font-weight: 600
 .after-footer-container
     width: 100%
     background: rgb(233, 235, 252)
@@ -224,6 +229,8 @@
 .header-back
     width: 105%
     height: auto
+    @media (max-width: $breakpoint-tablet)
+      display: none
     .header-back-img
         width: 100%
     @media (max-width: $breakpoint-desktop)
@@ -231,14 +238,17 @@
     @media (max-width: $breakpoint-mobile)
         display: inherit
         width: 460%
+        height: 100% !important
         position: relative
         .home-back-img
             width: 100%
             transform: translate3d(-22%, 0, -1px)
 
-@media (max-width: $breakpoint-desktop)
-    .transparent-navbar-children
-       transform: translate3d(-10px, -95px, -1px)
-@media (max-width: $breakpoint-mobile)
-    .transparent-navbar-children
-       transform: translate3d(-10px, -95px, -1px)
+
+.feature-grid-img
+  overflow: visible !important
+  img
+    top: -60px !important
+
+.feature-grid-content-box
+  margin: -2em auto 3em auto !important

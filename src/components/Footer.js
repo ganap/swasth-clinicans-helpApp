@@ -26,47 +26,47 @@ const Footer = class extends React.Component {
                 </div>
               </div>
               <div className="column is-3">
-              <h1 className="title is-size-5 navbar-item footer-section-title">
+              <h1 className="title is-size-5 navbar-item footer-section-title base-text">
                 Swasth
               </h1>
                   <ul className="menu-list">
-                    <li className="navbar-item">
+                    <li className="navbar-item base-text">
                       Clinicians
                     </li>
-                    <li className="navbar-item">
+                    <li className="navbar-item base-text">
                       Members
                     </li>
                   </ul>
               </div>
               <div className="column is-3">
-              <h1 className="title is-size-5 navbar-item footer-section-title">
+              <h1 className="title is-size-5 navbar-item base-text footer-section-title">
                 Mobile Apps
               </h1>
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
-                      <Link to="/" className="navbar-item">
+                      <a href="http://swasth.co/dbt-coach" className="navbar-item base-text">
                         DBT Coach
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/about">
+                      <a href="http://swasth.co/dbt-daily" className="navbar-item base-text">
                         DBT Daily
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
+                      <a href="http://swasth.co/cbt-companion" className="navbar-item base-text">
                         CBT Companion
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact/examples">
+                      <a href="http://swasth.co/act-coach" className="navbar-item base-text" to="/contact/examples">
                         ACT Coach
-                      </Link>
+                      </a>
                     </li>
                     <li>
                       <a
-                        className="navbar-item"
+                        className="navbar-item base-text"
                         href="/admin/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -78,18 +78,18 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-3">
-              <h1 className="title is-size-5 navbar-item footer-section-title">
+              <h1 className="title is-size-5 navbar-item base-text footer-section-title">
                Support
               </h1>
                 <section>
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="/blog">
+                      <a href="http://help.swasth.co" className="navbar-item base-text">
                        Help Center
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact">
+                      <Link className="navbar-item base-text" to="/contact">
                         Contact Support
                       </Link>
                     </li>
