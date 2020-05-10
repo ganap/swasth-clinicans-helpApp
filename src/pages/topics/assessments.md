@@ -2,7 +2,6 @@
 templateKey: topic-page
 title: Assessments
 date: 2020-04-22T12:32:13.419Z
-featuredimage: ''
 ---
 ![](/img/assessments.png)
 
