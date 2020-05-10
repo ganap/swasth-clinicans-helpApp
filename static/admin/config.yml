@@ -1,10 +1,6 @@
 backend:
   name: git-gateway
-<<<<<<< HEAD
   branch: prod
-=======
-  branch: dev
->>>>>>> dev
 
 media_folder: static/img
 public_folder: /img
