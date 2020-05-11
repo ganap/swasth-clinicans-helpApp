@@ -46,6 +46,17 @@ export const TopicsTemplate = ({
               </div>
             </div>
             <div className="column is-4 content recent-topic-container">
+              {
+                liveDemo ?
+              <Fragment>
+
+                <div className="box">
+                {
+                <ReactPlayer url={liveDemo} width="100%" height="186px"/>
+                }
+                </div>
+              </Fragment>
+               : ''}
               {recentTopics && recentTopics.length ? <>
               <h2 className="is-size-4 sub-title recent-topic-title">
                 Related Topics
@@ -60,17 +71,6 @@ export const TopicsTemplate = ({
               </ul>
               </div>
               </> : null}
-              {
-                liveDemo ?
-                  <Fragment>
-
-                    <div className="box">
-                      {
-                        <ReactPlayer url={liveDemo} width="100%" height="186px"/>
-                      }
-                    </div>
-                  </Fragment>
-                  : ''}
             </div>
             </div>
           </div>
