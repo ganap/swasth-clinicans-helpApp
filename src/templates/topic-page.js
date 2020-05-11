@@ -27,7 +27,7 @@ export const TopicsTemplate = ({
               <h1 className="title is-size-2 has-text-weight-bold is-bold-light base-text">
                   {title}
               </h1>
-            <div className="columns">
+            <div className="columns" style={{marginTop: 10}}>
               <div className="column is-8">
                 { featuredimage ?
                 <PreviewCompatibleImage imageInfo={{...feature, image: featuredimage}} />
@@ -45,7 +45,7 @@ export const TopicsTemplate = ({
                 }
               </div>
             </div>
-            <div className="column is-4 content">
+            <div className="column is-4 content recent-topic-container">
               {
                 liveDemo ?
               <Fragment>
@@ -58,7 +58,7 @@ export const TopicsTemplate = ({
               </Fragment>
                : ''}
               {recentTopics && recentTopics.length ? <>
-              <h2 className="is-size-4 sub-title">
+              <h2 className="is-size-4 sub-title recent-topic-title">
                 Related Topics
               </h2>
               <div className="box">
