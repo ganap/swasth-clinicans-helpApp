@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../img/assets/swasthforclincian-logo@3x.png";
-import topBack from "../../static/img/top-bg@3x.png";
+import topBack from "../../static/img/top-bg@2x.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -32,11 +32,13 @@ const Navbar = class extends React.Component {
   };
 
   render() {
-    const { transparent } = this.props;
     return (
       <>
+        <img
+          className='header-bg-img'
+          src={topBack} />
         <nav
-          className={`navbar ${!transparent ? 'transparent-navbar' : ''}`}
+          className={`navbar`}
           role="navigation"
           aria-label="main-navigation"
         >
@@ -68,10 +70,10 @@ const Navbar = class extends React.Component {
             </div>
           </div>
         </nav>
-        {transparent ? "" :
+       {/* {transparent ? "" :
           <div
             className="full-width-image margin-top-0 header-back"
-            style={{ backgroundImage: `url(${topBack})`, height: "calc(100vh - 375px)" }} />}
+            style={{ backgroundImage: `url(${topBack})`, height: "calc(100vh - 375px)" }} />}*/}
             {/*  <img src={bannerIcon} className="home-back-icon"/> */}
       </>
     );

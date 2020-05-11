@@ -23,7 +23,7 @@ export const IndexPageTemplate = ({
   categories
 }) => (
   <div className="home-top">
-    <div className="full-width-image margin-top-0 home-back" style={{backgroundImage:`url(${topBack})`,height:'calc(100vh - 375px)'}}>
+    <div className="full-width-image margin-top-0 home-back">
       {/*<img src={topBack} className="home-back-img"/>*/}
       {/*<img src={bannerIcon} className="home-back-icon"/>*/}
       <div className="home-head-box">
@@ -91,7 +91,7 @@ export const IndexPageTemplate = ({
                   {/* <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
                     {features.heading}
                   </h3> */}
-                <Features gridItems={features.feature} />
+                <Features gridItems={features.feature} description={features.description} />
                 </section>  : ''}
                 {/* <div className="columns">
                   <div className="column is-12 has-text-centered">

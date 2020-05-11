@@ -17,9 +17,9 @@ $black: #2b2523
 
 body
   font-family: "Airbnb Cereal App Book", sans-serif !important
-  max-width: 1920px
+  //max-width: 1920px
   overflow: hidden
-  margin: auto !important
+  //margin: auto !important
   letter-spacing: 0.5px
   font-weight: 400
   line-height: 25px
@@ -156,16 +156,17 @@ $menu-label-color: $white-ter
 
 .navbar
   position: absolute;
-  width: 100%;
+  width: 80.33333%
+  margin-left: 10.3333%
   background-color: transparent;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 0;
   > .container
     max-width: 1116px;
   .navbar-burger
     color: $main-color
   .navbar-item
     line-height: 22px
-    //padding: 20px 15px
+    padding: 0.5rem 0.75rem 0.5rem 0
     font-weight: bold
     font-size: 16px
     letter-spacing: 1px
@@ -176,7 +177,9 @@ $menu-label-color: $white-ter
     height: 35px;
     width: auto;
   @media (max-width: $breakpoint-tablet)
-    padding: 0
+    padding: 0 15px
+    width: 100%
+    margin-left: 0
     .navbar-item
       margin: auto 0;
     .navbox-action-item
@@ -256,11 +259,13 @@ $menu-label-color: $white-ter
       color: #ad83f0
 
 .category-section
-  margin-top: -20%
-  @media (max-width: $breakpoint-desktop)
-    margin-top: -36%
+  padding-top: 100px
+  min-height: 500px
+  @media (max-width: $breakpoint-mobile)
+    min-height: unset
   @media (max-width: $breakpoint-tablet)
-    margin-top: 10%
+    margin-top: 0%
+    min-height: 300px
   .box
     box-shadow: 2px 3px 12px 0px #EFEFF9
     border-radius: 0
@@ -293,11 +298,10 @@ $menu-label-color: $white-ter
     margin-top: -10%
 
 .topic-section
-  margin-top: -20%
-  @media (max-width: $breakpoint-desktop)
-    margin-top: -36%
+  padding-top: 100px
+  min-height: 500px
   @media (max-width: $breakpoint-tablet)
-    margin-top: 10%
+    margin-top: 0%
   .topic-rich-content
     h2
       font-family: "Airbnb Cereal App Book"
@@ -306,11 +310,20 @@ $menu-label-color: $white-ter
     div
       font-family: "Airbnb Cereal App Book"
 
+// Feature section
+.feature-section
+  padding-top: 100px
+  min-height: 500px
+  p
+    font-family: "Airbnb Cereal App Book", 'Apercu Regular'
+
+
+
 .base-text
   font-family: "Airbnb Cereal App Book", 'Apercu Regular'
 
 .para-text
-  font-family: 'Apercu Regular', "Airbnb Cereal App Book";
+  font-family: 'Apercu Regular', "Airbnb Cereal App Book"
 
 //All new styles
 @import "styles/global"

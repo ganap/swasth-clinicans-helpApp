@@ -57,6 +57,7 @@ export const TopicsTemplate = ({
                 </div>
               </Fragment>
                : ''}
+              {recentTopics && recentTopics.length ? <>
               <h2 className="is-size-4 sub-title">
                 Related Topics
               </h2>
@@ -69,6 +70,7 @@ export const TopicsTemplate = ({
               }
               </ul>
               </div>
+              </> : null}
             </div>
             </div>
           </div>
