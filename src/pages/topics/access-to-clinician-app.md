@@ -6,7 +6,7 @@ topics: []
 recentTopics:
   - slug: topics/invite-clients-to-share-data
     title: Invite clients to share their app data
-liveDemo: ''
+liveDemo: 'https://www.youtube.com/embed/sg32fFAFvYw?rel=0'
 ---
 ## Sign up
 
