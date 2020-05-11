@@ -2,7 +2,6 @@
 templateKey: feature-page
 title: Getting started with Swasth® for Clinicians
 date: 2019-10-25T21:54:00.000Z
-featuredimage: ''
 topics:
   - heading: Account setup
     topic:

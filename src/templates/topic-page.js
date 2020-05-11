@@ -24,10 +24,10 @@ export const TopicsTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1 content">
-              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+              <h1 className="title is-size-2 has-text-weight-bold is-bold-light base-text">
                   {title}
               </h1>
-            <div className="columns">
+            <div className="columns" style={{marginTop: 10}}>
               <div className="column is-8">
                 { featuredimage ?
                 <PreviewCompatibleImage imageInfo={{...feature, image: featuredimage}} />
@@ -45,11 +45,11 @@ export const TopicsTemplate = ({
                 }
               </div>
             </div>
-            <div className="column is-4 content">
+            <div className="column is-4 content recent-topic-container">
               {
                 liveDemo ?
               <Fragment>
-                
+
                 <div className="box">
                 {
                 <ReactPlayer url={liveDemo} width="100%" height="186px"/>
@@ -57,7 +57,8 @@ export const TopicsTemplate = ({
                 </div>
               </Fragment>
                : ''}
-              <h2 className="is-size-4 sub-title">
+              {recentTopics && recentTopics.length ? <>
+              <h2 className="is-size-4 sub-title recent-topic-title">
                 Related Topics
               </h2>
               <div className="box">
@@ -69,6 +70,7 @@ export const TopicsTemplate = ({
               }
               </ul>
               </div>
+              </> : null}
             </div>
             </div>
           </div>

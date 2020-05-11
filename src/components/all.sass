@@ -17,9 +17,9 @@ $black: #2b2523
 
 body
   font-family: "Airbnb Cereal App Book", sans-serif !important
-  max-width: 1920px
+  //max-width: 1920px
   overflow: hidden
-  margin: auto !important
+  //margin: auto !important
   letter-spacing: 0.5px
   font-weight: 400
   line-height: 25px
@@ -156,23 +156,20 @@ $menu-label-color: $white-ter
 
 .navbar
   position: absolute;
-  width: 100%;
+  width: 80.33333%
+  margin-left: 10.3333%
   background-color: transparent;
-  padding: 10px 5px;
+  padding: 10px 20px 10px 0;
   > .container
     max-width: 1116px;
   .navbar-burger
-    color: #fff 
+    color: $main-color
   .navbar-item
-    background-color: transparent !important
     line-height: 22px
-    padding: 20px 15px
-    color: #fff !important
+    padding: 0.5rem 0.75rem 0.5rem 0
     font-weight: bold
     font-size: 16px
     letter-spacing: 1px
-    font-family: "Airbnb Cereal App Book"
-    height: 21px
   .navbox-action-item
     margin-left: 50px;
     display: flex;
@@ -180,10 +177,11 @@ $menu-label-color: $white-ter
     height: 35px;
     width: auto;
   @media (max-width: $breakpoint-tablet)
-    padding: 0
+    padding: 0 15px
+    width: 100%
+    margin-left: 0
     .navbar-item
       margin: auto 0;
-      color: $main-color;
     .navbox-action-item
       display: block;
       margin: auto;
@@ -210,18 +208,37 @@ $menu-label-color: $white-ter
   margin: 10px 0
   color: #4E67C1
   font-size: 16px
+  font-family: "Airbnb Cereal App Book", 'Apercu Regular'
   b
     margin-right: 5px;
+    font-family: "Airbnb Cereal App Book", 'Apercu Regular'
 
+
+.custom-alert-tip-box-text
+  padding: 5px 10px;
+  background: rgba(84,200,143,0.2);
+  border: solid 1px #54C88F;
+  border-radius: 3px;
+  margin: 10px 0;
+  color: #54C88F
+  font-family: "Airbnb Cereal App Book", 'Apercu Regular'
+  b
+    margin-right: 5px;
+    color: #54C88F
+    font-family: "Airbnb Cereal App Book", 'Apercu Regular'
 
 .custom-tip-box-text
   padding: 5px 10px;
-  background: #ffb24d3d;
-  border: solid 1px #674e0852;
+  background: rgba(252,181,27,0.1);
+  border: solid 1px #FCB51B;
   border-radius: 3px;
   margin: 10px 0;
+  color: #FCB51B
+  font-family: "Airbnb Cereal App Book", 'Apercu Regular'
   b
     margin-right: 5px;
+    color: #FCB51B
+    font-family: "Airbnb Cereal App Book", 'Apercu Regular'
 
 
 //video component
@@ -231,15 +248,88 @@ $menu-label-color: $white-ter
   height: 300px;
   margin: 10px 0;
 
+// recent topic container
+.recent-topic-container
+  @media (min-width: 800px)
+    margin-left: 20px
+  .recent-topic-title
+    text-align: center
 
 //Home Category section style
 .category-grid-box
   .category-link-text
     font-size: 18px;
     color: #757DE8;
+    font-weight: 600
     &:hover
       color: #ad83f0
 
+.category-section
+  padding-top: 100px
+  min-height: 500px
+  @media (max-width: $breakpoint-mobile)
+    min-height: unset
+  @media (max-width: $breakpoint-tablet)
+    margin-top: 0%
+    min-height: 300px
+  .box
+    box-shadow: 2px 3px 12px 0px #EFEFF9
+    border-radius: 0
+    height: 100%
+  .title
+    margin-bottom: 2rem
+  .topic-grid-title
+    border-bottom: 1px solid rgba(224,224,224,0.4)
+    padding-bottom: 15px
+    font-size: 20px
+    font-weight: 600 !important
+  .columns
+    .column
+      .columns
+        @media (min-width: $breakpoint-tablet)
+          flex-wrap: wrap
+  li
+    list-style-type: none
+  li::before
+    content: "*"
+    color: $main-color
+    margin-left: -1rem
+    width: 1rem
+    margin-top: 5px
+    font-weight: 600
+    display: inline-block
+
+.transparent-navbar
+  @media (max-width: $breakpoint-tablet)
+    margin-top: -10%
+
+.topic-section
+  padding-top: 100px
+  min-height: 500px
+  @media (max-width: $breakpoint-tablet)
+    margin-top: 0%
+  .topic-rich-content
+    h2
+      font-family: "Airbnb Cereal App Book"
+    p
+      font-family: "Airbnb Cereal App Book"
+    div
+      font-family: "Airbnb Cereal App Book"
+
+// Feature section
+.feature-section
+  padding-top: 100px
+  min-height: 500px
+  p
+    font-family: "Airbnb Cereal App Book", 'Apercu Regular'
+
+
+
+.base-text
+  font-family: "Airbnb Cereal App Book", 'Apercu Regular'
+
+.para-text
+  font-family: 'Apercu Regular', "Airbnb Cereal App Book"
 
 //All new styles
 @import "styles/global"

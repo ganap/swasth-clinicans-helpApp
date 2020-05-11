@@ -1,23 +1,40 @@
-.feature-section, .category-section, .topic-section
-    
-
 
 .topic-section
     .sub-title
-        font-weight: 400
+        font-weight: 600
+        font-family: "Airbnb Cereal App Book", 'Apercu Regular'
+
+    .box
+        box-shadow: 2px 3px 12px 0px #EFEFF9
     .topic-rich-content
         h2
             font-size: 20px
             color: #757DE8
-            font-weight: 400  
+            font-weight: 600
+            &:not(:first-child)
+                padding-top: 40px
+                border-top: 1px solid #757de824
+                margin-top: 2rem
         p
-            font-size: 16px
+            font-size: 14px
             & > span
                 max-width: 100% !important    
                 a
                     box-shadow: 0 0 8px 10px rgba(0,0,0,0.06)
                     border-radius: 6px 
                     overflow: hidden
+                    font-weight: 500
                     position: relative    
     .topic-link-container
         margin-top: 0
+        li
+            list-style-type: none
+            font-family: "Airbnb Cereal App Book", 'Apercu Regular'
+        li::before
+            content: "*"
+            color: $main-color
+            margin-left: -1rem
+            width: 1rem
+            margin-top: 5px
+            font-weight: 600
+            display: inline-block

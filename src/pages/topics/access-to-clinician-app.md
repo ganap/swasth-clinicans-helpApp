@@ -1,14 +1,14 @@
 ---
 templateKey: topic-page
-title: Access to Clinician App
+title: Access to Clinician Platform
 date: 2019-09-06T22:04:45.246Z
 topics: []
 recentTopics:
   - slug: topics/invite-clients-to-share-data
     title: Invite clients to share their app data
-liveDemo: ''
+liveDemo: 'https://www.youtube.com/embed/sg32fFAFvYw?rel=0'
 ---
-## Sign up - Test
+## Sign up
 
 The first step of provider on-boarding is signup.
 
@@ -31,7 +31,5 @@ The very first time, you login you will have to set up Two-Factor Authentication
 ![](/img/05_options_ga_or_-mobile_num.png)
 
 If you choose Google Authenticator - you will need to set it up. You can refer to this [guide](https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DiOS&hl=en). Once you set up authenticator to sync with your account, every time you login you will be asked for MFA code and you will enter the code from the authenticator app.
-
-![]()
 
 - - -
