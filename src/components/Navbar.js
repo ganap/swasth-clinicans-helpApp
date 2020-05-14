@@ -34,9 +34,9 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <>
-        <img
+        {/*<img
           className='header-bg-img'
-          src={topBack} />
+          src={topBack} />*/}
         <nav
           className={`navbar`}
           role="navigation"

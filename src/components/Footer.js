@@ -11,7 +11,7 @@ const Footer = class extends React.Component {
   render() {
     return (
       <>
-      <div className="pre-footer-div" />
+      {/*<div className="pre-footer-div" />*/}
       <div className="footer-wrapper">
       <footer className="footer has-swasth-background has-text-white-ter">
         <div className="content has-text-centered has-text-white-ter footer-content">

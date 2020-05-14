@@ -1,12 +1,16 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import UnderConstruction from '../img/assets/under_construction.png'
+
 
 const NotFoundPage = () => (
   <Layout>
-    <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    </div>
+    <section className='coming-soon-section'>
+      <div>
+        <h2 className='bottom-space base-text'>Coming Soon <br/> </h2>
+        <img src={UnderConstruction} className='custom-image'/>
+      </div>
+    </section>
   </Layout>
 )
 
