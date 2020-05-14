@@ -1,6 +1,6 @@
 ---
 templateKey: feature-page
-title: Account Setup
+title: 'Account Setup '
 date: 2019-09-04T16:00:51.244Z
 featuredimage: /img/blog-index.jpg
 topics:
