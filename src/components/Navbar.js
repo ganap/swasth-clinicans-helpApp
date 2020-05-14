@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../img/assets/swasthforclincian-logo@3x.png";
-import topBack from "../../static/img/top-bg@2x.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -34,7 +33,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <>
-        {/*<img
+      {/*  <img
           className='header-bg-img'
           src={topBack} />*/}
         <nav
