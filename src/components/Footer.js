@@ -49,11 +49,11 @@ const Footer = class extends React.Component {
                         DBT Coach
                       </a>
                     </li>
-                    <li>
+                    {/*<li>
                       <a href="http://swasth.co/dbt-daily" className="navbar-item base-text">
                         DBT Daily
                       </a>
-                    </li>
+                    </li>*/}
                     <li>
                       <a href="http://swasth.co/cbt-companion" className="navbar-item base-text">
                         CBT Companion
