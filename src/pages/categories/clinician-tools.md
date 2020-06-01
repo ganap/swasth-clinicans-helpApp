@@ -22,6 +22,6 @@ topics:
   - heading: Assessments
     topic:
       - slug: topics/assessments
-        title: Adding an Assessments
+        title: Assign Assessments
 ---
 
