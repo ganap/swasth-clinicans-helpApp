@@ -7,6 +7,7 @@ recentTopics:
     title: View Homework
   - slug: topics/group-homework
     title: Group Homework
+liveDemo: 'https://www.youtube.com/embed/rtclt1IUPX8?rel=0'
 ---
 ## Assign Homework
 
