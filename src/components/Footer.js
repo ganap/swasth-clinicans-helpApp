@@ -45,7 +45,7 @@ const Footer = class extends React.Component {
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
-                      <a href="http://swasth.co/dbt-coach" className="navbar-item base-text">
+                      <a href="https://swasth.co/dbt-coach" className="navbar-item base-text">
                         DBT Coach
                       </a>
                     </li>
@@ -55,12 +55,12 @@ const Footer = class extends React.Component {
                       </a>
                     </li>*/}
                     <li>
-                      <a href="http://swasth.co/cbt-companion" className="navbar-item base-text">
+                      <a href="https://swasth.co/cbt-companion" className="navbar-item base-text">
                         CBT Companion
                       </a>
                     </li>
                     <li>
-                      <a href="http://swasth.co/act-coach" className="navbar-item base-text" to="/contact/examples">
+                      <a href="https://swasth.co/act-coach" className="navbar-item base-text" to="/contact/examples">
                         ACT Coach
                       </a>
                     </li>
