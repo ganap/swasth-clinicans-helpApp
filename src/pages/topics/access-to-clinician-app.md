@@ -4,6 +4,8 @@ title: Access to Clinician Platform
 date: 2019-09-06T22:04:45.246Z
 topics: []
 recentTopics:
+  - slug: topics/adding-a-new-client
+    title: Add Client
   - slug: topics/invite-clients-to-share-data
     title: Invite clients to share their app data
 liveDemo: 'https://www.youtube.com/embed/s3AONyhvvtE?rel=0'
