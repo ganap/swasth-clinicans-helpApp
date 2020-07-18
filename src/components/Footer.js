@@ -148,7 +148,7 @@ const Footer = class extends React.Component {
           </p>
         </div>
         <div className="after-footer-right social">
-          <a title="facebook" href="https://facebook.com">
+          <a title="facebook" href="https://www.facebook.com/swasthco/">
             <img
               src={facebook}
               alt="Facebook"
