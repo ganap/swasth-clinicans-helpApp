@@ -5,6 +5,8 @@ date: 2019-09-06T21:58:38.260Z
 ---
 ## Invite clients
 
+<div class="custom-alert-text"><b> Note:</b>Before you can invite a client to share their data, you will need to "Add Client". The email that you enter in the "Email" field when you add the needs to be the same as what the client uses to login to client facing app (for eg. DBT Coach). Please make sure that you make the client "Active" by clicking on the toggle button.</div>
+
 Navigate to the DBT Coach App, on the left navigation bar (under apps). Then click on the "Invite Clients" button. Then from the list of clients in the dropdown box select the client to invite and click "Send".
 
 ![](/img/dropdown1.png)

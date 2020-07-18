@@ -7,6 +7,7 @@ recentTopics:
     title: Group Homework
   - slug: topics/assign-homework
     title: Assign Homework to Individual Client's
+liveDemo: 'https://www.youtube.com/embed/rtclt1IUPX8?rel=0'
 ---
 ## View Clients' Homework
 

@@ -9,8 +9,6 @@ topics:
         title: ' Getting started with Secure Messaging'
       - slug: How to use Secure Messaging with clients
         title: How to use Secure Messaging with clients
-      - slug: Can I send a mass email to all of my clients through SimplePractice?
-        title: Can I send a mass email to all of my clients through SimplePractice?
       - slug: How to set up Online Booking
         title: How to set up Online Booking
   - heading: General Client Portal Info
