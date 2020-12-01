@@ -7,7 +7,9 @@ recentTopics:
   - slug: topics/adding-a-new-client
     title: Add Client
   - slug: topics/invite-clients-to-share-data
-    title: Invite clients to share their app data
+    title: Clients sharing their data with clinician
+  - slug: view-client-entries
+    title: Viewing Clients' shared data
 liveDemo: 'https://www.youtube.com/embed/s3AONyhvvtE?rel=0'
 ---
 ## Sign up
