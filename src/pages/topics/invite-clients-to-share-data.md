@@ -6,7 +6,7 @@ recentTopics:
   - slug: adding-a-new-client
     title: Adding a new Client
 ---
-Once a client is added, and then made active (check this link), the client can go their Settings > Sharing settings and set the data items they want to share.
+Once a client is added, and then made active (check this [link](https://help.swasth.co/topics/adding-a-new-client)), the client can go their Settings > Sharing settings and set the data items they want to share.
 
 ## Client sharing settings
 
