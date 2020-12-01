@@ -2,7 +2,9 @@
 templateKey: topic-page
 title: Clients sharing data with the Clinician
 date: 2019-09-06T21:58:38.260Z
-recentTopics: []
+recentTopics:
+  - slug: adding-a-new-client
+    title: Adding a new Client
 ---
 Once a client is added, and then made active (check this link), the client can go their Settings > Sharing settings and set the data items they want to share.
 
