@@ -11,6 +11,6 @@ topics:
   - heading: Access to client's app data
     topic:
       - slug: topics/invite-clients-to-share-data
-        title: Invite clients to share their app data
+        title: Clients sharing their data with clinician
 ---
 
