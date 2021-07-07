@@ -2,6 +2,15 @@
 templateKey: topic-page
 title: Using administrative notes
 date: 2020-04-27T10:56:30.172Z
+recentTopics:
+  - slug: topics/using-chart-notes
+    title: Using Chart Notes
+  - slug: topics/access-to-clinician-app
+    title: Getting started with Clinician portal
+  - slug: topics/working-with-diagnosis-treatment-plan
+    title: Working with Diagnosis & Treatment Plan
+  - slug: topics/working-with-mental-status-exam
+    title: 'Working with Mental Status Exam '
 ---
 ## Adding an Administrative note
 
@@ -11,8 +20,10 @@ Adding an Administrative note
 
 To add an administrative note a client's profile and follow these steps:
 
-1. Go to Notes & Billing.
-2. Click on **Create admin note** button
+1. Select the client by clicking on Switch client button.
+2. Navigate to Notes and Billing.
+3. Select Notes tab.
+4. Click on **Create admin note** button
 
 ![](/img/admin_note_1.png)
 
